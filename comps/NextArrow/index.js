@@ -1,4 +1,5 @@
 import React from 'react';
+import './nextArrow.css';
 
 const nextImg = require('./nextArrow.svg')
 
