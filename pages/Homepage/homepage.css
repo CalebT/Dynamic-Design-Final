@@ -7,11 +7,10 @@
     align-items: center;
 }
 
-.logo{
-    width: 75%;
-    height: auto;
-    margin: 50px;
-    
+.anipalslogo{
+    height:300px;
+    width: auto;
+    margin: 30px;
 }
 
 .buttons{
@@ -19,4 +18,8 @@
     flex-direction: column;
     align-items: center;
     width: 75%;
+}
+
+.custom_button_box{
+    margin-bottom: 30px;
 }

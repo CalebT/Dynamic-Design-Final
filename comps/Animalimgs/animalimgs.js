@@ -4,7 +4,7 @@ import './animalimgs.css'
 const Aniimg = require('../../Imgs/polarbear.jpg');
 
 const Animalimg = ({img}) => <div className='animal_img'>
-    <img src={img} />
+    <img className='imgs' src={img} />
 </div>
 
 Animalimg.defaultProps = {

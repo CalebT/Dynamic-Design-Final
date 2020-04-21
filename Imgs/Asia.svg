@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="169.647" height="100.334" viewBox="0 0 169.647 100.334">
+  <g id="Group_1" data-name="Group 1" transform="translate(1.096 0.494)">
+    <g id="Asia" transform="translate(0 0)">
+      <path id="Path_5" data-name="Path 5" d="M2861.794-121.366c-8.159,0-30.771-22.27-61.211-17.055s-41.553,6.208-56.291,19.12c6.765,1.32,13.529,10.926,4.832,13.906,3.867,3.754,6.523,16.235,6.04,21.946,7.746-.268,17.636-4.74,17.636-4.74,1.28-.989-6.868-5.409-3.14-6.281,12.8-1.123,22.379,1.659,27.3,4.47,9.758,5.572,12.321,23.59,16.428,28.8,5.842-5.862,8.18-17.605,14.012-22.254,5.778-4.605,15.021-2.069,15.95,0,4.256,9.479,11.705,15.677,11,8.021s-3.547-10.208,7.449-12.761S2874.208-86,2877.4-96.574s-2.838-13.854,6.03-13.49,20.573,3.646,21.637-5.833-12.77-25.886-21.637-17.5S2869.952-121.366,2861.794-121.366Z" transform="translate(-2744.292 139.213)" fill="#db4242" stroke="#707070" stroke-width="1"/>
+      <path id="Path_6" data-name="Path 6" d="M3353.733-50.378a12.156,12.156,0,0,1-6.9,7.335c-3.667,1.51-1.079,5.609,4.315,1.726s5.825-6.472,6.041-9.061S3356.322-57.066,3353.733-50.378Z" transform="translate(-3189.177 76.761)" fill="#db4242" stroke="#707070" stroke-width="1"/>
+      <path id="Path_7" data-name="Path 7" d="M3144.675,109.267c-.281,2.476-1.4,3.878,3.085,9.768s-2.8,4.207,1.683,12.62,2.8,13.742-1.683,5.889-.561-10.938-3.085-16.827S3142.992,104.547,3144.675,109.267Z" transform="translate(-3039.522 -42.04)" fill="#db4242" stroke="#707070" stroke-width="1"/>
+      <path id="Path_8" data-name="Path 8" d="M3193.729,192.916c-7.292,3.646-9.816,8.974-1.4,11.218S3201.021,189.27,3193.729,192.916Z" transform="translate(-3070.831 -107.067)" fill="#db4242" stroke="#707070" stroke-width="1"/>
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(131.116 55.183)" fill="#db4242" stroke="#707070" stroke-width="1">
+        <ellipse cx="1.5" cy="3.5" rx="1.5" ry="3.5" stroke="none"/>
+        <ellipse cx="1.5" cy="3.5" rx="1" ry="3" fill="none"/>
+      </g>
+      <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(132.116 66.183)" fill="#db4242" stroke="#707070" stroke-width="1">
+        <ellipse cx="1.5" cy="6" rx="1.5" ry="6" stroke="none"/>
+        <ellipse cx="1.5" cy="6" rx="1" ry="5.5" fill="none"/>
+      </g>
+      <path id="Path_9" data-name="Path 9" d="M3276.419,205.425c-1.963-2.524-3.43.777-4.94,1.855s2.762,2.157,4.94,1.942,7.788.863,11.455,2.157,6.688-4.315,2.157-4.962S3276.419,205.425,3276.419,205.425Z" transform="translate(-3134.968 -112.726)" fill="#db4242" stroke="#707070" stroke-width="1"/>
+      <text id="Asia-2" data-name="Asia" transform="translate(69.116 34.183)" font-size="9" font-family="Rubik-Light, Rubik" font-weight="300"><tspan x="0" y="0">Asia</tspan></text>
+    </g>
+  </g>
+</svg>
