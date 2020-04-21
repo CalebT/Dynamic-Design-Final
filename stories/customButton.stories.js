@@ -2,16 +2,19 @@ import React from 'react';
 import BigButton from '../comps/big-buttons';
 import NextArrow from '../comps/NextArrow';
 import BackArrow from '../comps/BackArrow';
-import Header from '../comps/Header';
+import Header from '../comps/Header'
+import TutorialSteps from '../comps/tutorial-steps'
+import AnimalInfo from '../comps/animal-info'
+import AnimalQuiz from '../comps/animal-quiz'
+import QuizResults from '../comps/quiz-results'
+import SmallButton from '../comps/small-buttons';
+import SoundButton from '../comps/sound-buttons';
 import TutorialSteps from '../comps/tutorial-steps';
 import AnimalInfo from '../comps/animal-info';
 import AnimalQuiz from '../comps/animal-quiz';
 import QuizResults from '../comps/quiz-results';
 import QuizPage from '../pages/QuizPage';
 import QuizResultsPage from '../pages/QuizResultsPage';
-import SmallButton from '../comps/small-buttons';
-import SoundButton from '../comps/sound-buttons';
-
 
 export default {
     title: 'My Comps',
@@ -32,7 +35,7 @@ export const MyHeader = () => <Header
 export const MySmallButton = () => <SmallButton />
 
 export const MySoundButton = () => <SoundButton />
-export const MyHeader = () => <Header />
+export const MyHeader1 = () => <Header />
 
 
 export const MyTutorialSteps = () => <TutorialSteps 
