@@ -5,6 +5,8 @@ import Header from '../../comps/Header/index'
 import BackArrow from '../../comps/BackArrow/index'
 import NextArrow from '../../comps/NextArrow/index'
 import Animalimg from '../../comps/Animalimgs/animalimgs'
+import SmallButton from '../../comps/small-buttons/index'
+import SoundButton from '../../comps/sound-buttons/index'
 
 const AnimalPage = () => 
 
@@ -18,7 +20,7 @@ const AnimalPage = () =>
         <NextArrow />
     </div>
     <div className='animal_sound'>
-
+        <SoundButton />
     </div>
     <div className='info'>
         <AnimalInfo 
@@ -32,6 +34,10 @@ const AnimalPage = () =>
         text8="Polar bears have black skin and their fur is actually transparent"
         fontWeight="light"
         />
+    </div>
+    <div className='footer_button'>
+        <SmallButton text='Back'/>
+        <SmallButton text='Quiz'/>
     </div>
     
 </div>
