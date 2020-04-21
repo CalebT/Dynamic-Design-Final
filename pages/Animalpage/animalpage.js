@@ -35,8 +35,10 @@ const AnimalPage = () =>
         fontWeight="light"
         />
     </div>
-    <div className='footer_button'>
+    <div className='footer_button1'>
         <SmallButton text='Back'/>
+    </div>
+    <div className='footer_button2'>
         <SmallButton text='Quiz'/>
     </div>
     
