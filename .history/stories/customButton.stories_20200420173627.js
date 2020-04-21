@@ -20,9 +20,11 @@ export const MyNextArrow = () => <NextArrow />
 
 export const MyBackArrow = () => <BackArrow />
 
+<<<<<<< HEAD
 export const MySmallButton = () => <SmallButton />
 
 export const MySoundButton = () => <SoundButton />
+=======
 export const MyHeader = () => <Header />
 
 export const MyTutorialSteps = () => <TutorialSteps 
@@ -52,3 +54,4 @@ export const MyAnimalInfo = () => <AnimalInfo
 />
 
 export const MyAnimalQuiz = () => <AnimalQuiz />
+>>>>>>> e066ba23eab9246879af22ef51d3e1fbd0e66f7a
