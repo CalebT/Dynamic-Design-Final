@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import './small-button.css';
+import './small-buttons.css';
+import { lolosPlay } from "react-icons/io";
 
 <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet"></link>
 
@@ -14,7 +15,11 @@ const SmallButton = ({text, color, onClick}) => <div
     
 </div>
 
-
+class Question extends React.Component {
+    render() {
+      return <h3> Lets go for a <FaBeer />? </h3>
+    }
+  }
 
 SmallButton.defaultProps = {
     text:"Default Button",

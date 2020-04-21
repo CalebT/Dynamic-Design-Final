@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import './small-button.css';
+import './small-buttons.css';
+import { lolosPlay } from "react-icons/io";
 
 <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet"></link>
 

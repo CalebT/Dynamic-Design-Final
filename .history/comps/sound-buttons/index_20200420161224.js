@@ -1,14 +1,15 @@
 import React, {useState, useEffect} from 'react';
-import './small-button.css';
+import './sound-buttons.css';
+import { lolosPlay } from "react-icons/io";
 
 <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet"></link>
 
 //made the UI
-const SmallButton = ({text, color, onClick}) => <div 
+const SoundButton = ({text, color, onClick}) => <div 
     style={{backgroundColor:color, boxShadow:"2px 1px 5px black"}}
-    className="custom_button_box_small"
+    className="custom_button_box_sound"
     onClick={onClick}>
-    <div className="custom_button_box_inner_small">
+    <div className="custom_button_box_inner_sound">
         {text}
     </div>
     
@@ -16,9 +17,9 @@ const SmallButton = ({text, color, onClick}) => <div
 
 
 
-SmallButton.defaultProps = {
+SoundButton.defaultProps = {
     text:"Default Button",
     color:"#FFF",
     onClick:"",
 }
-export default SmallButton;
+export default SoundButton;

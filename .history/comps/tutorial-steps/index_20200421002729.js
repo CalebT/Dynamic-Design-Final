@@ -44,7 +44,7 @@ const TutorialSteps = ({text1, text2, text3, text4, text5, text6, text7, text8, 
 
 TutorialSteps.defaultProps = {
     text1:"Step 1",
-    text2:"Select an area on the map to learn about animals from that area",
+    text2="Select an area on the map to learn about animals from that area",
     text3:"Step 2",
     text4:"Select the level of endangerment",
     text5:"Step 3",

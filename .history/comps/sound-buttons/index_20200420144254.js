@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import './small-button.css';
+import './small-buttons.css';
+import { lolosPlay } from 'react-icons/io';
 
 <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet"></link>
 
@@ -9,7 +10,7 @@ const SmallButton = ({text, color, onClick}) => <div
     className="custom_button_box_small"
     onClick={onClick}>
     <div className="custom_button_box_inner_small">
-        {text}
+        <lolosPlay size={40}/>
     </div>
     
 </div>

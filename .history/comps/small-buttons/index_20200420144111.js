@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import './small-button.css';
+import './small-buttons.css';
 
 <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet"></link>
 

@@ -1,0 +1,36 @@
+.menu_buttons{
+    width: 250px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, .85);
+    border-right: 4px solid gray;
+    /* opacity: 85%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: -100%;
+}
+
+.menu_icon{
+    padding: 5px;
+    position: relative;
+    left: -250px;
+}
+
+.entire_menu{
+    display: flex;
+    background-color: lightblue;
+}
+
+.custom_button_box{
+    width:60%;
+    height:25px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom_button_box_inner{
+    font-size: 35px;
+}
