@@ -3,7 +3,6 @@ import BigButton from '../comps/big-buttons';
 import NextArrow from '../comps/NextArrow';
 import BackArrow from '../comps/BackArrow';
 import SmallButton from '../comps/small-buttons';
-import SoundButton from '../comps/sound-buttons';
 
 export default {
     title: 'My Comps',
@@ -17,5 +16,3 @@ export const MyNextArrow = () => <NextArrow />
 export const MyBackArrow = () => <BackArrow />
 
 export const MySmallButton = () => <SmallButton />
-
-export const MySoundButton = () => <SoundButton />
