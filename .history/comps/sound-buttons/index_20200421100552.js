@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './sound-buttons.css';
-import { IoIosPlay } from "react-icons/io";
+import { LolosPlay } from "react-icons/io";
 
 <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet"></link>
 
@@ -10,7 +10,7 @@ const SoundButton = ({text, color, onClick}) => <div
     className="custom_button_box_sound"
     onClick={onClick}>
     <div className="custom_button_box_inner_sound">
-        <IoIosPlay size={30}/>
+        <LolosPlay size={50}/>
     </div>
     
 </div>

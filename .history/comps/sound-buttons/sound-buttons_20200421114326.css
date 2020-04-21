@@ -26,3 +26,10 @@
     background: none;
     color: none;
 }
+
+.custom_button_box_inner_sound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

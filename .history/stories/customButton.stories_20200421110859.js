@@ -2,20 +2,13 @@ import React from 'react';
 import BigButton from '../comps/big-buttons';
 import NextArrow from '../comps/NextArrow';
 import BackArrow from '../comps/BackArrow';
-import Header from '../comps/Header'
-import TutorialSteps from '../comps/tutorial-steps'
-import AnimalInfo from '../comps/animal-info'
-import AnimalQuiz from '../comps/animal-quiz'
-import QuizResults from '../comps/quiz-results'
 import SmallButton from '../comps/small-buttons';
 import SoundButton from '../comps/sound-buttons';
+import Header from '../comps/Header';
 import Subheader from '../comps/Subheader';
 import TutorialSteps from '../comps/tutorial-steps';
 import AnimalInfo from '../comps/animal-info';
-import AnimalQuiz from '../comps/animal-quiz';
-import QuizResults from '../comps/quiz-results';
-import QuizPage from '../pages/QuizPage';
-import QuizResultsPage from '../pages/QuizResultsPage';
+import AnimalQuiz from "../comps/animal-quiz";
 
 export default {
     title: 'My Comps',
@@ -28,16 +21,11 @@ export const MyNextArrow = () => <NextArrow />
 
 export const MyBackArrow = () => <BackArrow />
 
-
-export const MyHeader = () => <Header 
-    color="green"
-/>
-      
 export const MySmallButton = () => <SmallButton />
 
 export const MySoundButton = () => <SoundButton />
 
-export const MyHeader1 = () => <Header />
+export const MyHeader = () => <Header />
 
 export const MySubheader = () => <Subheader />
 
@@ -67,21 +55,4 @@ export const MyAnimalInfo = () => <AnimalInfo
     fontWeight="light"
 />
 
-
-export const MyAnimalQuiz = () => <AnimalQuiz 
-    text1="Q1. Where do polar bears not live?"
-    text2="Canada"
-    text3="Russia"
-    text4="England"
-    text5="USA"
-/>
-
-export const MyQuizResults = () => <QuizResults 
-    text1="Q1. Where do polar bears not live?"
-    text2="England"
-    color="green"
-/>
-
-export const MyQuizPage = () => <QuizPage />
-
-export const MyResultsPage = () => <QuizResultsPage />
+export const MyAnimalQuiz = () => <AnimalQuiz />
