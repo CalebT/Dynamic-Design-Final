@@ -2,7 +2,6 @@ import React from 'react';
 import BigButton from '../comps/big-buttons';
 import NextArrow from '../comps/NextArrow';
 import BackArrow from '../comps/BackArrow';
-
 import Header from '../comps/Header'
 import TutorialSteps from '../comps/tutorial-steps'
 import AnimalInfo from '../comps/animal-info'
