@@ -8,7 +8,7 @@ export default {
     title: 'pages',
     component: Homepage,
     component: AnimalPage,
-    component: TutorialPage,    
+    
 }
 
 

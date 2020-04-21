@@ -43,17 +43,19 @@ const TutorialSteps = ({text1, text2, text3, text4, text5, text6, text7, text8, 
 </div>
 
 TutorialSteps.defaultProps = {
-    text1:"Step 1",
-    text2:"Select an area on the map to learn about animals from that area",
-    text3:"Step 2",
-    text4:"Select the level of endangerment",
-    text5:"Step 3",
-    text6:"Select predator or prey",
-    text7:"Step 4",
-    text8:"Learn about the animal",
-    text9:"Step 5",
-    text10:"Do a fun quiz!",
-    fontWeight:"bold",
+    fontWeight:"",
+    text1:"header",
+    text2:"dummy text",
+    text3:"header",
+    text4:"dummy text",
+    text5:"header",
+    text6:"dummy text",
+    text7:"header",
+    text8:"dummy text",
+    fontSize1:37,
+    fontSize2: 30,
+    color:"#000",
+    fontWeight:"",
 }
 
 export default TutorialSteps;
