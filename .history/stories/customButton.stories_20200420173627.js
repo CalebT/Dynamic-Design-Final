@@ -2,12 +2,6 @@ import React from 'react';
 import BigButton from '../comps/big-buttons';
 import NextArrow from '../comps/NextArrow';
 import BackArrow from '../comps/BackArrow';
-
-import Header from '../comps/Header'
-import TutorialSteps from '../comps/tutorial-steps'
-import AnimalInfo from '../comps/animal-info'
-import AnimalQuiz from '../comps/animal-quiz'
-import QuizResults from '../comps/quiz-results'
 import SmallButton from '../comps/small-buttons';
 import SoundButton from '../comps/sound-buttons';
 import Header from '../comps/Header';
@@ -26,16 +20,12 @@ export const MyNextArrow = () => <NextArrow />
 
 export const MyBackArrow = () => <BackArrow />
 
-
-export const MyHeader = () => <Header 
-    color="green"
-/>
-      
+<<<<<<< HEAD
 export const MySmallButton = () => <SmallButton />
 
 export const MySoundButton = () => <SoundButton />
+=======
 export const MyHeader = () => <Header />
-
 
 export const MyTutorialSteps = () => <TutorialSteps 
     text1="Step 1"
@@ -63,18 +53,5 @@ export const MyAnimalInfo = () => <AnimalInfo
     fontWeight="light"
 />
 
-
-export const MyAnimalQuiz = () => <AnimalQuiz 
-    text1="Q1. Where do polar bears not live?"
-    text2="Canada"
-    text3="Russia"
-    text4="England"
-    text5="USA"
-/>
-
-export const MyQuizResults = () => <QuizResults 
-    text1="Q1. Where do polar bears not live?"
-    text2="England"
-    color="green"
-/>
-
+export const MyAnimalQuiz = () => <AnimalQuiz />
+>>>>>>> e066ba23eab9246879af22ef51d3e1fbd0e66f7a
