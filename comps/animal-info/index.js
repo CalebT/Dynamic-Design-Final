@@ -33,7 +33,7 @@ AnimalInfo.defaultProps = {
     text6:"dummy text",
     text7:"header",
     text8:"dummy text",
-    fontSize: 21,
+    fontSize: 17,
     color:"#000",
 }
 
