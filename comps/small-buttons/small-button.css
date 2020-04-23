@@ -1,24 +1,24 @@
-.custom_button_box {
-    display: inline-flex;
+.custom_button_box-small {
     border-radius: 25px;
-    font-family: 'Londrina Solid', cursive;
-    padding: 25px;
+    padding: 10px 20px;
     font-weight: bolder;
-    font-size: 23pt;
+    font-size: 20pt;
     border: 5px solid #707070;
     color: #707070;
     cursor: pointer;
     box-shadow: 3px 3px 6px black;
     margin: 5px;
-    transition: 0.1s;
-    text-align: center;
 }
 
-.custom_button_box:active{
+.custom_button_box-small:active{
     background-color: "#FFF";
 }
 
-.custom_button_box_inner::selection {
+.custom_button_box_inner-small::selection {
     background: none;
     color: none;
+}
+
+.custom_button_box_inner-small {
+    font-family: 'Londrina Solid', cursive;
 }
