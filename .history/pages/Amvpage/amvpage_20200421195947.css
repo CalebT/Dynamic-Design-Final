@@ -1,0 +1,47 @@
+.entire_amv{
+    background-color: #6de2de;
+    width: 325px;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.amv_header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(#17CC4E, #ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.amv_subheader{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons_big{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    
+}
+
+
+.buttons_small{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    position: absolute;
+    bottom: 10px;
+    right: 65px;
+}
+
+.entire_amv .buttons_big > div {
+    margin: 25px;
+    margin-top: 100px;
+}
