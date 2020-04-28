@@ -13,9 +13,6 @@
     transition: 0.1s;
     width: 60px;
     height: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .custom_button_box_sound:active{
@@ -25,4 +22,11 @@
 .custom_button_box_inner_sound::selection {
     background: none;
     color: none;
+}
+
+.custom_button_box_inner_sound {
+    /*display: flex;*/
+    align-self: center;
+    justify-content: center;
+
 }

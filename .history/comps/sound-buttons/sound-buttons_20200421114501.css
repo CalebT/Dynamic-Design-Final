@@ -15,7 +15,7 @@
     height: 5px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 .custom_button_box_sound:active{

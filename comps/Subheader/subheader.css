@@ -1,0 +1,5 @@
+.subheader h1{
+    font-family: 'Londrina Solid', cursive;
+    display: inline;
+    -webkit-text-stroke: 3px black;
+}

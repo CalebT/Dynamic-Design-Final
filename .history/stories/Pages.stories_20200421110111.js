@@ -4,7 +4,6 @@ import AnimalPage from '../pages/Animalpage/animalpage';
 import TutorialPage from '../pages/Tutorialpage/tutorialpage';
 import LoeamPage from '../pages/Loeampage/loeampage';
 import AmvPage from '../pages/Amvpage/amvpage';
-import Worldmap from '../pages/Worldmappage/worldmap'
 
 
 export default {
@@ -14,7 +13,6 @@ export default {
     component: TutorialPage, 
     component: LoeamPage,
     component: AmvPage,
-    component: Worldmap,    
 }
 
 
@@ -24,4 +22,3 @@ export const MyAnimalPage = () => <AnimalPage />
 export const MyTutorialPage = () => <TutorialPage />
 export const MyLoeamPage = () => <LoeamPage />
 export const MyAmvPage = () => <AmvPage />
-export const MyMapPage = () => <Worldmap />

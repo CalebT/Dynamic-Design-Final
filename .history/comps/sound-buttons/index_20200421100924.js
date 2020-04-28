@@ -10,7 +10,7 @@ const SoundButton = ({text, color, onClick}) => <div
     className="custom_button_box_sound"
     onClick={onClick}>
     <div className="custom_button_box_inner_sound">
-        <IoIosPlay size={30}/>
+        <IoIosPlay size={10}/>
     </div>
     
 </div>
