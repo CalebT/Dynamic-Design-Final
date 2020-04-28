@@ -1,0 +1,56 @@
+
+.america{
+   width: 25%;
+   height: auto;
+   position: absolute;
+   left: 7px;
+   top: 30px;
+   cursor: pointer;
+}
+.asia{
+    width: 40%;
+    position: absolute;
+    left: 170px;
+    top: 44px;
+    cursor: pointer;
+}
+.africa{
+    width: 23%;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    cursor: pointer;
+}
+.australia{
+    width: 23%;
+    position: absolute;
+    left: 220px;
+    top: 145px;
+    cursor: pointer;
+}
+.gray1{
+    width: 9%;
+    position: absolute;
+    left: 75px;
+}
+.gray2{
+    width: 60%;
+    position: absolute;
+    left: 122px;
+}
+
+.america:hover{
+    width: 28%;
+}
+
+.asia:hover{
+    width: 43%;
+}
+
+.africa:hover{
+    width: 26%;
+}
+
+.australia:hover{
+    width: 26%;
+}
