@@ -1,0 +1,38 @@
+.entire_amv{
+    background-color: #6de2de;
+    width: 325px;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.loeam_header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons_big{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    
+}
+
+
+.buttons_small{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    position: absolute;
+    bottom: 10px;
+    right: 65px;
+}
+
+.entire_amv .buttons_big > div {
+    margin: 25px;
+    margin-top: 500px;
+}
