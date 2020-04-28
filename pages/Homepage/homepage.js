@@ -1,13 +1,13 @@
 import React from 'react'
 import './homepage.css'
-import Logo from '../../comps/Logo/logo'
+import AnipalsLogo from '../../comps/Logo/logo'
 import BigButton from '../../comps/big-buttons/index'
 
 const Homepage = () => 
 
 <div className='entire_home'>
     <div className='logo'>
-        <Logo />
+        <AnipalsLogo />
     </div>
     <div className='buttons'>
         <BigButton text='Start'/>

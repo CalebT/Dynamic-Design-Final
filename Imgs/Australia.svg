@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76.557" height="54.404" viewBox="0 0 76.557 54.404">
+  <g id="Australia" transform="translate(0.489 0.506)">
+    <path id="Path_10" data-name="Path 10" d="M3204.063,292.784c.561-5.048,1.963-7.011-8.133,0s-24.119,2.244-25.24,16.266,4.207,11.218,9.816,8.133,18.229-4.768,24.68,2.244,14.3,14.023,19.071,6.45,6.451-19.912,0-27.484-5.048-7.292-5.889-10.657-3.646-3.365-3.927,1.963S3204.063,298.113,3204.063,292.784Z" transform="translate(-3170.539 -285.416)" fill="#275ce2" stroke="#707070" stroke-width="1"/>
+    <path id="Path_11" data-name="Path 11" d="M3406.4,446.05c-10.377,8.414-8.974,10.1,0,5.048S3416.775,437.637,3406.4,446.05Z" transform="translate(-3338.098 -400.54)" fill="#275ce2" stroke="#707070" stroke-width="1"/>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(45.648 47.112)" fill="#275ce2" stroke="#707070" stroke-width="1">
+      <circle cx="2" cy="2" r="2" stroke="none"/>
+      <circle cx="2" cy="2" r="1.5" fill="none"/>
+    </g>
+    <text id="Australia-2" data-name="Australia" transform="translate(17.648 25.112)" font-size="9" font-family="Rubik-Light, Rubik" font-weight="300"><tspan x="0" y="0">Australia</tspan></text>
+  </g>
+</svg>

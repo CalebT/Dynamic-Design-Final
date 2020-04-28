@@ -10,6 +10,8 @@ import QuizResults from '../comps/quiz-results'
 import SmallButton from '../comps/small-buttons';
 import SoundButton from '../comps/sound-buttons';
 import Subheader from '../comps/Subheader';
+import AnimalQuiz from '../comps/animal-quiz';
+import QuizResults from '../comps/quiz-results';
 import QuizPage from '../pages/QuizPage';
 import QuizResultsPage from '../pages/QuizResultsPage';
 
