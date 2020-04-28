@@ -1,0 +1,28 @@
+.custom_button_box_sound {
+    display: inline-flex;
+    border-radius: 25px;
+    font-family: 'Londrina Solid', cursive;
+    padding: 25px;
+    font-weight: bolder;
+    font-size: 10pt;
+    border: 5px solid #707070;
+    color: #707070;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px black;
+    margin: 5px;
+    transition: 0.1s;
+    width: 60px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.custom_button_box_sound:active{
+    background-color: "#FFF";
+}
+
+.custom_button_box_inner_sound::selection {
+    background: none;
+    color: none;
+}
