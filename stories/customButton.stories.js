@@ -9,6 +9,12 @@ import AnimalQuiz from '../comps/animal-quiz'
 import QuizResults from '../comps/quiz-results'
 import SmallButton from '../comps/small-buttons';
 import SoundButton from '../comps/sound-buttons';
+import TutorialSteps from '../comps/tutorial-steps';
+import AnimalInfo from '../comps/animal-info';
+import AnimalQuiz from '../comps/animal-quiz';
+import QuizResults from '../comps/quiz-results';
+import QuizPage from '../pages/QuizPage';
+import QuizResultsPage from '../pages/QuizResultsPage';
 
 export default {
     title: 'My Comps',
@@ -73,3 +79,6 @@ export const MyQuizResults = () => <QuizResults
     color="green"
 />
 
+export const MyQuizPage = () => <QuizPage />
+
+export const MyResultsPage = () => <QuizResultsPage />
