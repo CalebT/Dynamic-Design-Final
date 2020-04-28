@@ -15,10 +15,9 @@ return <div className='entire_menu'>
         <BigButton text='Tutorial'/>
         <BigButton text='World Map'/>
     </div>
-    <div className='menu_icon'>
+    <div className='menu_icon'style={{left:menu_state}}>
         <TiThMenu size={40} onClick={()=>{
-            
-            
+            setMenu()
         }} />
     </div>
 </div>
