@@ -2,7 +2,7 @@
     background-color: #6de2de;
     width: 325px;
     height: 812px;
-    position: relative;
+    position: absolute;
 }
 
 .button{
@@ -13,4 +13,9 @@
 
 .custom_button_box_small{
     width: 75px;
+}
+
+.map{
+    position: relative;
+    top: 40%;
 }

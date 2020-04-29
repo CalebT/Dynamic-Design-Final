@@ -4,9 +4,6 @@ import NextArrow from '../comps/NextArrow';
 import BackArrow from '../comps/BackArrow';
 import Header from '../comps/Header'
 import TutorialSteps from '../comps/tutorial-steps'
-import AnimalInfo from '../comps/animal-info'
-import AnimalQuiz from '../comps/animal-quiz'
-import QuizResults from '../comps/quiz-results'
 import SmallButton from '../comps/small-buttons';
 import SoundButton from '../comps/sound-buttons';
 import Subheader from '../comps/Subheader';
