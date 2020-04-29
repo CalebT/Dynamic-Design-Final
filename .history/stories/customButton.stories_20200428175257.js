@@ -1,6 +1,5 @@
 import React from 'react';
 import AnimalInfo from '../comps/animal-info';
-import AnimalQuiz from '../comps/animal-quiz';
 import BigButton from '../comps/big-buttons';
 import NextArrow from '../comps/NextArrow';
 import BackArrow from '../comps/BackArrow';
@@ -10,9 +9,7 @@ import SmallButton from '../comps/small-buttons';
 import SoundButton from '../comps/sound-buttons';
 import Subheader from '../comps/Subheader';
 import QuizPage from '../pages/QuizPage';
-import QuizResults from '../comps/quiz-results';
 import QuizResultsPage from '../pages/QuizResultsPage';
-
 
 export default {
     title: 'My Comps',
