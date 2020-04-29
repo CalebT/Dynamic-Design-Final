@@ -20,6 +20,7 @@ const AnimalPage = () =>
         <NextArrow />
     </div>
     <div className='animal_sound'>
+        <p id='sound'>Sound: </p>
         <SoundButton />
     </div>
     <div className='info'>

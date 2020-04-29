@@ -45,3 +45,14 @@
     align-items: center;
     flex-direction: column;
 }
+
+#sound{
+    font-family: 'Rubik', sans-serif;
+    margin-right: 10px;
+}
+
+.animal_sound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
