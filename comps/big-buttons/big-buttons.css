@@ -11,6 +11,7 @@
     box-shadow: 3px 3px 6px black;
     margin: 5px;
     transition: 0.1s;
+    text-align: center;
 }
 
 .custom_button_box:active{

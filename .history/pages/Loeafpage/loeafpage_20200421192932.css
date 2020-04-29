@@ -1,0 +1,43 @@
+.entire_loeaf{
+    background-color: #6de2de;
+    width: 325px;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.loeaf_header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 72px;
+  background: -webkit-linear-gradient(#17cc4e, #ef9b20);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buttons_big{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    
+    
+}
+
+
+.buttons_small{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    position: absolute;
+    bottom: 10px;
+    right: 65px;   
+}
+
+.entire_loeaf .buttons_big > div {
+    margin:25px;
+    margin-top: 50px;
+}
