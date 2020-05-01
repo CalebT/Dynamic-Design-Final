@@ -22,9 +22,8 @@
   },
   "homepage": "https://github.com/CalebT/Dynamic-Design-Final#readme",
   "dependencies": {
-    "next": "^9.3.5",
     "@zeit/next-css": "^1.0.1",
-    "next": "^9.3.4",
+    "next": "^9.3.6",
     "next-images": "^1.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
