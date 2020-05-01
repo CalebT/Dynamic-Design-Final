@@ -9,13 +9,8 @@ import TutorialSteps from '../comps/tutorial-steps'
 import SmallButton from '../comps/small-buttons';
 import SoundButton from '../comps/sound-buttons';
 import Subheader from '../comps/Subheader';
-import AnimalInfo from '../comps/animal-info';
-import AnimalQuiz from '../comps/animal-quiz';
-import QuizResults from '../comps/quiz-results';
 import QuizPage from '../pages/QuizPage';
-import QuizResults from '../comps/quiz-results';
 import QuizResultsPage from '../pages/QuizResultsPage';
-
 
 export default {
     title: 'My Comps',
