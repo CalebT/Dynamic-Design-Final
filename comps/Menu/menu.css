@@ -9,20 +9,21 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    left: 0;
+    left: -204px;
+    transition: left 1s;
 }
 
 .menu_icon{
     padding: 5px;
     position: relative;
-    left: 0px;
+    left: -204px;
+    transition: left 1s;
 }
 
 .entire_menu{
     width: 325px;
     display: flex;
     background-color: lightblue;
-    left: 0;
 }
 
 .custom_button_box{
