@@ -14,7 +14,8 @@ function ClickBack() {
 }
 
 const QuizPage = () => 
-    <div id="quizpage">
+    <div id="quizpage"
+    onClick={ClickSubmit}>
         <span >
             menu
         </span>
@@ -68,7 +69,6 @@ const QuizPage = () =>
             <div>
             <SmallButton 
             text="Submit"
-            onClick={ClickSubmit}
             />
             </div>
         </div>

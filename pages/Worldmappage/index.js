@@ -14,10 +14,11 @@ function ClickBack() {
 
 const Worldmap = () => 
 
-<div className='entire_map'>
+<div className='entire_map'
+onClick={ClickAmerica}>
    <div className='map'>
       <Americaimg 
-      onClick={ClickAmerica}/>
+      />
    </div>
    
    <div className='button'>

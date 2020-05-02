@@ -19,7 +19,8 @@ function ClickBack() {
 
 const AnimalPage = () => 
 
-<div className='entire_animalinfo'>
+<div className='entire_animalinfo'
+onClick={ClickQuiz}>
     <div className='animal_header'>
         <Header color='#0d6d0d' text='Polar Bear' fontSize='25pt'/>
     </div>
@@ -51,7 +52,7 @@ const AnimalPage = () =>
     </div>
     <div className='footer_button2'>
         <SmallButton text='Quiz'
-        onClick={ClickQuiz}/>
+        />
     </div>
     
 </div>

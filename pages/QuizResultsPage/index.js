@@ -7,16 +7,13 @@ import './quiz-results-page.css';
 import SpecialButton from '../../comps/special-button';
 import Router from 'next/router';
 
-function ClickTryAgain() {
-    Router.push("/QuizPage")
-}
-
 function ClickMap() {
     Router.push("/Worldmappage")
 }
 
 const QuizResultsPage = () => 
-    <div id="quizpage">
+    <div id="quizpage"
+    onClick={ClickMap}>
         <span >
             menu
         </span>
@@ -74,14 +71,12 @@ const QuizResultsPage = () =>
             <div>
             <SmallButton 
             text="Try Again"
-            onClick={ClickTryAgain}
             />
             </div>
                 
             <div class="submit-button">
             <SmallButton 
             text="World Map"
-            onClick={ClickMap}
             />
             </div>
         </div>

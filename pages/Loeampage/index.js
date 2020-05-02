@@ -11,13 +11,14 @@ function ClickVulnerable() {
 
 const Loeampage = () =>
 
-    <div className='entire_loeam'>
+    <div className='entire_loeam'
+    onClick={ClickVulnerable}>
         <div className='loeam_header'>
             <Header color='#0d6d0d' text='Americas' />
         </div>
         <div className='buttons_big'>
             <BigButton text='Vulnerable' 
-            onClick={ClickVulnerable}/>
+            />
             <BigButton text='Endangered' />
             <BigButton text='Critically Endangered' />  
         </div>
