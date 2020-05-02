@@ -9,7 +9,7 @@ const Auvpage = () =>
 
     <div className='entire_aue'>
         <div className='auv_header'>
-            <Header color='#0d6d0d' text='Australias' />
+            <Header color='#275CE2' text='Australia' />
         </div>
         <div className='auv_subheader'>
             <Subheader color='#ef9b20' text='Vulnerable' />

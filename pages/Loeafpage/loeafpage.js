@@ -8,7 +8,7 @@ const Loeafpage = () =>
 
     <div className='entire_loeaf'>
         <div className='loeaf_header'>
-            <Header color='#0d6d0d' text='Afericas' />
+            <Header color='#0d6d0d' text='Africa' />
         </div>
         <div className='buttons_big'>
             <BigButton text='Vulnerable' />

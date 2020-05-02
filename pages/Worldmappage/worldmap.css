@@ -1,14 +1,23 @@
+html {
+    display: inline-flex;
+    justify-content: center;
+}
+
+
 .entire_map{
-    background-color: #6de2de;
+    background-color: #6EE2DF;
     width: 325px;
     height: 812px;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 
 .button{
     bottom: 10px;
     left: 5px;
-    position: absolute;
+    position: relative;
+    top: 90%;
+
 }
 
 .custom_button_box_small{

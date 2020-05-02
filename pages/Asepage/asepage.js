@@ -9,7 +9,7 @@ const Asepage = () =>
 
     <div className='entire_ase'>
         <div className='ase_header'>
-            <Header color='#0d6d0d' text='Asias' />
+            <Header color='#0d6d0d' text='Asia' />
         </div>
         <div className='ase_subheader'>
             <Subheader color='#ef9b20' text='Endangered' />

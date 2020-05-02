@@ -9,7 +9,7 @@ const Afepage = () =>
 
     <div className='entire_afe'>
         <div className='afe_header'>
-            <Header color='#0d6d0d' text='Afericas' />
+            <Header color='#0d6d0d' text='Africa' />
         </div>
         <div className='afe_subheader'>
             <Subheader color='#ef9b20' text='Endangered' />

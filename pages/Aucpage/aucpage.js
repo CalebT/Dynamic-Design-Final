@@ -9,7 +9,7 @@ const Aucpage = () =>
 
     <div className='entire_auc'>
         <div className='auc_header'>
-            <Header color='#0d6d0d' text='Australias' />
+            <Header color='#0d6d0d' text='Australia' />
         </div>
         <div className='auc_subheader'>
             <Subheader color='#ef9b20' text='Critically Endangered' />
