@@ -5,7 +5,15 @@ import SmallButton from '../../comps/small-buttons';
 import BigButton from '../../comps/big-buttons';
 import './quiz-results-page.css';
 import SpecialButton from '../../comps/special-button';
+import Router from 'next/router';
 
+function ClickTryAgain() {
+    Router.push("/QuizPage")
+}
+
+function ClickMap() {
+    Router.push("/Worldmappage")
+}
 
 const QuizResultsPage = () => 
     <div id="quizpage">
@@ -65,13 +73,15 @@ const QuizResultsPage = () =>
         <div class="button-container-results">
             <div>
             <SmallButton 
-            text="Back"
+            text="Try Again"
+            onClick={ClickTryAgain}
             />
             </div>
                 
             <div class="submit-button">
             <SmallButton 
-            text="Submit"
+            text="World Map"
+            onClick={ClickMap}
             />
             </div>
         </div>

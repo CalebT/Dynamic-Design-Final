@@ -13,8 +13,9 @@
     display: flex;
     justify-content: center;
     background: -webkit-linear-gradient(#DB4242,#ffff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .ase_subheader{

@@ -3,6 +3,12 @@ import './tutorialpage.css'
 import Header from '../../comps/Header/index'
 import TutorialSteps from '../../comps/tutorial-steps'
 import SmallButton from '../../comps/small-buttons/index'
+import Router from 'next/router';
+
+function ClickBack() {
+    Router.push("/Homepage")
+}
+
 
 const Tutorialpage = () =>
 
@@ -12,7 +18,8 @@ const Tutorialpage = () =>
         </div>
         <TutorialSteps />
         <div className='buttons'>
-            <SmallButton text='Back' />
+            <SmallButton text='Back' 
+            onClick={ClickBack}/>
         </div>
     </div>
 
