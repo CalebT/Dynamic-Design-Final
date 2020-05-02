@@ -13,8 +13,8 @@
     display: flex;
     justify-content: center;
     background: -webkit-linear-gradient(#17CC4E, #ffff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .ame_subheader{

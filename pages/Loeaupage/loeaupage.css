@@ -13,9 +13,9 @@
     display: flex;
     justify-content: center;
     font-size: 72px;
-  background: -webkit-linear-gradient(#275CE2,#ffff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#275CE2,#ffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .buttons_big{

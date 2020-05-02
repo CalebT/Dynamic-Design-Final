@@ -14,7 +14,7 @@
     justify-content: center;
     font-size: 72px;
     background: -webkit-linear-gradient(#DB4242,#ffff);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
