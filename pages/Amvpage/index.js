@@ -16,7 +16,8 @@ function ClickBack() {
 
 const Amvpage = () =>
 
-    <div className='entire_amv'>
+    <div className='entire_amv'
+    onClick={ClickPredator}>
         <div className='amv_header'>
             <Header color='#0d6d0d' text='Americas' />
         </div>
@@ -26,7 +27,7 @@ const Amvpage = () =>
         <div className='buttons_big'>
             <BigButton text='Prey' />
             <BigButton text='Predator' 
-            onClick={ClickPredator}/>
+            />
         </div>
         <div className='buttons_small'>
             <SmallButton text='Back' 
