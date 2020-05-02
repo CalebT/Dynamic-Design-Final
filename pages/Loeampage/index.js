@@ -3,6 +3,11 @@ import './loeampage.css'
 import Header from '../../comps/Header/index'
 import BigButton from '../../comps/big-buttons/index'
 import SmallButton from '../../comps/small-buttons/index'
+import Router from 'next/router';
+
+function ClickVulnerable() {
+    Router.push("/Amvpage")
+}
 
 const Loeampage = () =>
 
@@ -11,7 +16,8 @@ const Loeampage = () =>
             <Header color='#0d6d0d' text='Americas' />
         </div>
         <div className='buttons_big'>
-            <BigButton text='Vulnerable' />
+            <BigButton text='Vulnerable' 
+            onClick={ClickVulnerable}/>
             <BigButton text='Endangered' />
             <BigButton text='Critically Endangered' />  
         </div>

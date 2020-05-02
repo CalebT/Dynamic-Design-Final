@@ -7,6 +7,15 @@ import NextArrow from '../../comps/NextArrow/index'
 import Animalimg from '../../comps/Animalimgs/animalimgs'
 import SmallButton from '../../comps/small-buttons/index'
 import SoundButton from '../../comps/sound-buttons/index'
+import Router from 'next/router';
+
+function ClickQuiz() {
+    Router.push("/quizpage")
+}
+
+function ClickBack() {
+    Router.push("/Amvpage")
+}
 
 const AnimalPage = () => 
 
@@ -37,10 +46,12 @@ const AnimalPage = () =>
         />
     </div>
     <div className='footer_button1'>
-        <SmallButton text='Back'/>
+        <SmallButton text='Back'
+        onClick={ClickBack}/>
     </div>
     <div className='footer_button2'>
-        <SmallButton text='Quiz'/>
+        <SmallButton text='Quiz'
+        onClick={ClickQuiz}/>
     </div>
     
 </div>

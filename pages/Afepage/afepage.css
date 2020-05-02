@@ -14,6 +14,7 @@
     justify-content: center;
     background: -webkit-linear-gradient(#E1CA00,#ffff);
     background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 

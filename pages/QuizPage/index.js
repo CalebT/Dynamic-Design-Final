@@ -3,7 +3,15 @@ import Header from '../../comps/Header';
 import AnimalQuiz from '../../comps/animal-quiz';
 import SmallButton from '../../comps/small-buttons';
 import './quiz-page.css';
+import Router from 'next/router';
 
+function ClickSubmit() {
+    Router.push("/QuizResultsPage")
+}
+
+function ClickBack() {
+    Router.push("/Animalpage")
+}
 
 const QuizPage = () => 
     <div id="quizpage">
@@ -53,12 +61,14 @@ const QuizPage = () =>
             <div>
             <SmallButton 
             text="Back"
+            onClick={ClickBack}
             />
             </div>
             
             <div>
             <SmallButton 
             text="Submit"
+            onClick={ClickSubmit}
             />
             </div>
         </div>
