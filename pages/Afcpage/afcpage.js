@@ -9,7 +9,7 @@ const Afcpage = () =>
 
     <div className='entire_afc'>
         <div className='afc_header'>
-            <Header color='#0d6d0d' text='Afericas' />
+            <Header color='#0d6d0d' text='Africa' />
         </div>
         <div className='afc_subheader'>
             <Subheader color='#ef9b20' text='Critically Endangered' />

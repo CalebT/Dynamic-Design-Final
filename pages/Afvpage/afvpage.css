@@ -13,8 +13,8 @@
     display: flex;
     justify-content: center;
     background: -webkit-linear-gradient(#E1CA00,#ffff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .afv_subheader{

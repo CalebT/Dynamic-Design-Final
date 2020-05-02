@@ -9,7 +9,7 @@ const Asvpage = () =>
 
     <div className='entire_asv'>
         <div className='asv_header'>
-            <Header color='#0d6d0d' text='Asias' />
+            <Header color='#0d6d0d' text='Asia' />
         </div>
         <div className='asv_subheader'>
             <Subheader color='#ef9b20' text='Vulnerable' />

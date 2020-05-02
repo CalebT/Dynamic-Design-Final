@@ -9,7 +9,7 @@ const Ascpage = () =>
 
     <div className='entire_asc'>
         <div className='asc_header'>
-            <Header color='#0d6d0d' text='Asias' />
+            <Header color='#0d6d0d' text='Asia' />
         </div>
         <div className='asc_subheader'>
             <Subheader color='#ef9b20' text='Critically Endangered' />

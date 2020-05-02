@@ -9,7 +9,7 @@ const Auepage = () =>
 
     <div className='entire_aue'>
         <div className='aue_header'>
-            <Header color='#0d6d0d' text='Australias' />
+            <Header color='#0d6d0d' text='Australia' />
         </div>
         <div className='aue_subheader'>
             <Subheader color='#ef9b20' text='Endangered' />

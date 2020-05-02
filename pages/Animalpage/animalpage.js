@@ -12,7 +12,7 @@ const AnimalPage = () =>
 
 <div className='entire_animalinfo'>
     <div className='animal_header'>
-        <Header color='#0d6d0d' text='Polar Bear'/>
+        <Header color='#0d6d0d' text='Polar Bear' fontSize='25pt'/>
     </div>
     <div className='animal_img'>
         <BackArrow />

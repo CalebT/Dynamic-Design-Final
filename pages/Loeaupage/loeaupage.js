@@ -8,7 +8,7 @@ const Loeaupage = () =>
 
     <div className='entire_loeau'>
         <div className='loeau_header'>
-            <Header color='#0d6d0d' text='Australias' />
+            <Header color='#0d6d0d' text='Australia' />
         </div>
         <div className='buttons_big'>
             <BigButton text='Vulnerable' />

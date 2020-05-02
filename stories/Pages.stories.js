@@ -18,7 +18,9 @@ import AscPage from '../pages/Ascpage/ascpage';
 import AuvPage from '../pages/Auvpage/auvpage';
 import AuePage from '../pages/Auepage/auepage';
 import AucPage from '../pages/Aucpage/aucpage';
-import Worldmap from '../pages/Worldmappage/worldmap'
+import Worldmap from '../pages/Worldmappage/worldmap';
+import QuizPage from '../pages/QuizPage';
+import QuizResultsPage from '../pages/QuizResultsPage';
 
 
 export default {
@@ -43,6 +45,8 @@ export default {
     component: AuePage,
     component: AucPage,
     component: Worldmap,    
+    component: QuizPage,
+    component: QuizResultsPage,
 }
 
 
@@ -67,3 +71,5 @@ export const MyAuvPage = () => <AuvPage />
 export const MyAuePage = () => <AuePage />
 export const MyAucPage = () => <AucPage />
 export const MyMapPage = () => <Worldmap />
+export const MyQuizPage = () => <QuizPage />
+export const MyResultsPage = () => <QuizResultsPage />
