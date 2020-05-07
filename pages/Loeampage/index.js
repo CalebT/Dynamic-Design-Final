@@ -9,23 +9,41 @@ function ClickVulnerable() {
     Router.push("/Amvpage")
 }
 
+function clickEndangered() {
+    Router.push("/Amepage")
+}
+
+function clickCritical() {
+    Router.push("/Amcpage")
+}
+
+function ClickBack() {
+    Router.push("/Worldmappage")
+}
+
 const Loeampage = () =>
 
     <div className='entire_loeam'
-    onClick={ClickVulnerable}>
+    >
         <div className='loeam_header'>
             <Header color='#0d6d0d' text='Americas' />
         </div>
         <div className='buttons_big'>
-            <BigButton text='Vulnerable' 
+            <BigButton text='Vulnerable'
+            onClick={ClickVulnerable}
             />
-            <BigButton text='Endangered' />
-            <BigButton text='Critically Endangered' />  
+            <BigButton text='Endangered' 
+            onClick={clickEndangered}
+            />
+            <BigButton text='Critically Endangered' 
+            onClick={clickCritical}
+            />  
         </div>
         <div className='buttons_small'>
-            <SmallButton text='Back' />
+            <SmallButton text='Back' 
+            onClick={ClickBack}
+            />
         </div>
     </div>
-
 
 export default Loeampage;

@@ -17,12 +17,11 @@ function ClickBack() {
     Router.push("/Amvpage")
 }
 
-const AnimalPage = () => 
+const WolfPage = () => 
 
-<div className='entire_animalinfo'
-onClick={ClickQuiz}>
+<div className='entire_animalinfo'>
     <div className='animal_header'>
-        <Header color='#0d6d0d' text='Polar Bear' fontSize='25pt'/>
+        <Header color='#0d6d0d' text='Ethiopian Wolf' fontSize='25pt'/>
     </div>
     <div className='animal_img'>
         <BackArrow />
@@ -36,13 +35,13 @@ onClick={ClickQuiz}>
     <div className='info'>
         <AnimalInfo 
         text1="Population in Wild:"
-        text2="22,000 - 31,000"
+        text2="fewer than 440"
         text3="Location/Habitat:"
-        text4="Countries that circle the Arctic Ring (Canada, Russia, Greenland, etc.)"
+        text4="Ethiopian wolves are only found in the mountains of Ethiopia."
         text5="Diet:"
-        text6="Mainly eats different types of seals depending on location"
+        text6="Mainly eat rodents plentiful within their range, such as hares, grass rats and giant mole rats, they also eat gosling and eggs."
         text7="Fun Fact:"
-        text8="Polar bears have black skin and their fur is actually transparent"
+        text8="The Ethiopian wolf is the only wolf that lives in Africa."
         fontWeight="light"
         />
     </div>
@@ -52,10 +51,11 @@ onClick={ClickQuiz}>
     </div>
     <div className='footer_button2'>
         <SmallButton text='Quiz'
+        onClick={ClickQuiz}
         />
     </div>
     
 </div>
 
 
-export default AnimalPage
+export default WolfPage
