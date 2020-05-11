@@ -1,6 +1,6 @@
 import React from 'react';
 import Homepage from '../pages/Homepage';
-import AnimalPage from '../pages/Animalpage';
+import PolarBearPage from '../pages/PolarBearPage';
 import TutorialPage from '../pages/Tutorialpage';
 import LoeamPage from '../pages/Loeampage';
 import LoeafPage from '../pages/Loeafpage';
@@ -26,7 +26,7 @@ import QuizResultsPage from '../pages/QuizResultsPage';
 export default {
     title: 'pages',
     component: Homepage,
-    component: AnimalPage,
+    component: PolarBearPage,
     component: TutorialPage, 
     component: LoeamPage,
     component: LoeafPage,
@@ -52,7 +52,7 @@ export default {
 
 
 export const MyHomepage = () => <Homepage />
-export const MyAnimalPage = () => <AnimalPage />
+export const MyPolarBearPage = () => <PolarBearPage />
 export const MyTutorialPage = () => <TutorialPage />
 export const MyLoeamPage = () => <LoeamPage />
 export const MyLoeafPage = () => <LoeafPage />

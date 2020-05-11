@@ -58,4 +58,4 @@ const CurlewPage = () =>
 </div>
 
 
-export default PandaPage
+export default CurlewPage
