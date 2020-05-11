@@ -1,8 +1,8 @@
 import React from 'react';
 import './loeaspage.css';
-import Header from '../../comps/Header/index';
-import BigButton from '../../comps/big-buttons/index';
-import SmallButton from '../../comps/small-buttons/index';
+import Header from '../../comps/Header';
+import BigButton from '../../comps/big-buttons';
+import SmallButton from '../../comps/small-buttons';
 import Americaimg from '../../comps/WorldMap/worldmapcomp';
 import Router from 'next/router';
 
