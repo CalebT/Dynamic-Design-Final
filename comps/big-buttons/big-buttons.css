@@ -13,8 +13,8 @@
     margin: 5px;
     transition: 0.1s;
     text-align: center;
-    width: 200px;
-    height: 75px;
+    width: 75vw;
+    height: 10vh;
 }
 
 .custom_button_box:active{
