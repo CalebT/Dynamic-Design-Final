@@ -33,8 +33,10 @@ function ClickBack() {
 const Worldmap = () => 
 
 <div className='map_entire'>
+   <div className="header">
+      <Header color='#ffffff' text='Click an area to begin exploring!' fontSize='26px'/>
+   </div>
    <div className="map">
-      <Header color='#ffffff' text='Click an area to begin exploring!' fontSize='30px'/>
       <Americaimg onClick={ClickAmerica}/>
       <Gray1img />
       <Africaimg onClick={ClickAfrica} />

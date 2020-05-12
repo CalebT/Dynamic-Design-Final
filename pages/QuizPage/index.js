@@ -4,22 +4,23 @@ import AnimalQuiz from '../../comps/animal-quiz';
 import SmallButton from '../../comps/small-buttons';
 import './quiz-page.css';
 import Router from 'next/router';
+import QuizFalse from '../../comps/QuizFalse';
+import QuizTrue from '../../comps/QuizTrue';
 
 function ClickSubmit() {
     Router.push("/QuizResultsPage")
 }
 
 function ClickBack() {
-    Router.push("/Animalpage")
+    Router.push("/PolarBearpage")
 }
 
 const QuizPage = () => 
-    <div id="quizpage"
-    onClick={ClickSubmit}>
+    <div id="quizpage">
         <span >
             menu
         </span>
-        <div class="header">
+        <div className="header">
             <Header 
             text="Polar Bear Quiz"
             fontSize="23pt"
@@ -27,51 +28,37 @@ const QuizPage = () =>
             />
         </div>
 
-        <div class="quiz-question">
+        <div className="quiz-question">
             <AnimalQuiz 
-            fontSize="18"
-            text1="Q2. Where do polar bears NOT live?"
-            text2="Canada"
-            text3="Russia"
-            text4="England"
-            text5="USA"
-            />
-        </div>
-        <div class="quiz-question">
-            <AnimalQuiz 
-            fontSize="18"
-            text1="Q2. How endangered are polar bears?"
-            text2="Critically endangered"
-            text3="Vulnerable"
-            text4="Endangered"
-            text5="Near threatened"
+            question="Do polar bears live in England?"
+            fontSize="36pt"
             />
         </div>
 
-        <div class="quiz-question">
-            <AnimalQuiz 
-            fontSize="18"
-            text1="Q3. What do polar bears NOT eat?"
-            text2="Ringed seals"
-            text3="Harp seals"
-            text4="Whale carcasses"
-            text5="Sushi"
-            />
-        </div>
-        <div class="button-container">
-            <div>
+            <button className="False">
+                <QuizFalse />
+            </button>
+            
+            <button className="True">
+                <QuizTrue />
+            </button>
+
+        <div className="button-container">
+            <div className="button1">
             <SmallButton 
             text="Back"
             onClick={ClickBack}
             />
             </div>
             
-            <div>
+            <div className="button2">
             <SmallButton 
             text="Submit"
+            onClick={ClickSubmit}
             />
             </div>
         </div>
+
     </div>
 
 export default QuizPage;
