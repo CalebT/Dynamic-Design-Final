@@ -14,24 +14,36 @@ function ClickAmerica() {
    Router.push("/Loeampage")
 }
 
+function ClickAsia() {
+   Router.push("/Loeaspage")
+}
+
+function ClickAfrica() {
+   Router.push("/Loeafpage")
+}
+
+function ClickAustralia() {
+   Router.push("/Loeaupage")
+}
+
 function ClickBack() {
    Router.push("/Homepage")
 }
 
 const Worldmap = () => 
 
-<div className='map_entire'
-onClick={ClickAmerica}>
-<div className='map'>
-   <Header color='#ffffff' text='Click an area to begin exploring!' fontSize='30px'/>
-   <Americaimg/>
-   <Gray1img/>
-   <Africaimg/>
-   <Asiaimg/>
-   <Gray2img/>
-   <Australiaimg/>
-</div>
-   
+<div className='map_entire'>
+   <div className="header">
+      <Header color='#ffffff' text='Click an area to begin exploring!' fontSize='26px'/>
+   </div>
+   <div className="map">
+      <Americaimg onClick={ClickAmerica}/>
+      <Gray1img />
+      <Africaimg onClick={ClickAfrica} />
+      <Asiaimg onClick={ClickAsia} />
+      <Gray2img/>
+      <Australiaimg onClick={ClickAustralia} />
+   </div>
    <div className='button'>
       <SmallButton text='Back'
       onClick={ClickBack}/>

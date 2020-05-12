@@ -1,9 +1,14 @@
 .animal-quiz {
     font-family: 'Rubik', sans-serif;
-    text-align: left;
-    font-weight: 300;
+    text-align: center;
 }
 
 .question {
     font-weight: normal;
+}
+
+.TrueOrFalse {
+    display: flex;
+    margin-top: 25%;
+    justify-content: space-around;
 }
