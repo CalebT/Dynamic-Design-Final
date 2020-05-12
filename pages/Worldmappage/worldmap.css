@@ -11,10 +11,8 @@ html {
 
 .button{
     bottom: 10px;
-    left: 5px;
+    left: 10px;
     position: absolute;
-    top: 90%;
-
 }
 
 .custom_button_box_small{
