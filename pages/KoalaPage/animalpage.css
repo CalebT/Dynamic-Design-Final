@@ -14,14 +14,16 @@
     margin-bottom: 10px;
 }
 
-.animal_header{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+.header{
+    margin-top: 20px;
+    text-align: center;
 }
 
 .info{
+    height: 33vh;
     margin: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .footer_button1{
@@ -52,7 +54,7 @@
 }
 
 .animal_sound{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }

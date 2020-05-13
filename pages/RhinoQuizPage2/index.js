@@ -41,7 +41,7 @@ const QuizPage = () =>
         <div className="quiz-question">
             <AnimalQuiz 
             question="Q2. Can black rhinos run up to 67 kilometers per hour? as fast as some cars!"
-            fontSize="30pt"
+            fontSize="24pt"
             />
         </div>
 

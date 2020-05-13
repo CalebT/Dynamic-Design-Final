@@ -10,11 +10,11 @@ import SoundButton from '../../comps/sound-buttons/index'
 import Router from 'next/router';
 
 function ClickQuiz() {
-    Router.push("/QuizPage")
+    Router.push("/FerretQuizPage1")
 }
 
 function ClickBack() {
-    Router.push("/Amvpage")
+    Router.push("/Amepage")
 }
 
 const FerretPage = () => 

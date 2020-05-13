@@ -41,7 +41,7 @@ const QuizPage = () =>
         <div className="quiz-question">
             <AnimalQuiz 
             question="Q1. Do black rhinos like to eat ice cream sundaes?"
-            fontSize="36pt"
+            fontSize="24pt"
             />
         </div>
 

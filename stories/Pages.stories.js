@@ -19,8 +19,8 @@ import AuvPage from '../pages/Auvpage';
 import AuePage from '../pages/Auepage';
 import AucPage from '../pages/Aucpage';
 import Worldmap from '../pages/Worldmappage';
-import QuizPage from '../pages/QuizPage';
-import QuizResultsPage from '../pages/QuizResultsPage';
+import QuizPage from '../pages/PolarBearQuizPage1';
+import QuizResultsPage from '../pages/PolarBearQuizResultsPage';
 
 
 export default {
@@ -71,5 +71,5 @@ export const MyAuvPage = () => <AuvPage />
 export const MyAuePage = () => <AuePage />
 export const MyAucPage = () => <AucPage />
 export const MyMapPage = () => <Worldmap />
-export const MyQuizPage = () => <QuizPage />
-export const MyResultsPage = () => <QuizResultsPage />
+export const MyPolarBearQuizPage1 = () => <QuizPage />
+export const MyPolarBearQuizResultsPage = () => <QuizResultsPage />

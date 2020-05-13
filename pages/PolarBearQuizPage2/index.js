@@ -41,7 +41,7 @@ const QuizPage = () =>
         <div className="quiz-question">
             <AnimalQuiz 
             question="Q2. Do polar bears have black skin?"
-            fontSize="36pt"
+            fontSize="24pt"
             />
         </div>
 
