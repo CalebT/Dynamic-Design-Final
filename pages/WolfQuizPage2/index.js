@@ -30,10 +30,10 @@ const QuizPage = () =>
         <span >
             menu
         </span>
-        <div className="header">
+        <div className="header-box">
             <Header 
             text="Ethiopian Wolf Quiz"
-            fontSize="23pt"
+            fontSize="22pt"
             color="green"
             />
         </div>
@@ -41,7 +41,7 @@ const QuizPage = () =>
         <div className="quiz-question">
             <AnimalQuiz 
             question="Q2. Is the Ethiopian wolf the only wolf that lives in Africa?"
-            fontSize="24pt"
+            fontSize="20pt"
             />
         </div>
 

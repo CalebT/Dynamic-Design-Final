@@ -30,10 +30,10 @@ const QuizPage = () =>
         <span >
             menu
         </span>
-        <div className="header">
+        <div className="header-box">
             <Header 
             text="Polar Bear Quiz"
-            fontSize="20pt"
+            fontSize="23pt"
             color="green"
             />
         </div>

@@ -21,7 +21,7 @@ const WolfPage = () =>
 
 <div className='entire_animalinfo'>
     <div className='animal_header'>
-        <Header color='#0d6d0d' text='Ethiopian Wolf' fontSize='25pt'/>
+        <Header color='#0d6d0d' text='Ethiopian Wolf' fontSize='24pt'/>
     </div>
     <div className='animal_img'>
         <BackArrow />

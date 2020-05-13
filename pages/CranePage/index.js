@@ -21,7 +21,7 @@ const CranePage = () =>
 
 <div className='entire_animalinfo'>
     <div className='animal_header'>
-        <Header color='#0d6d0d' text='Whooping Crane' fontSize='25pt'/>
+        <Header color='#0d6d0d' text='Whooping Crane' fontSize='21pt'/>
     </div>
     <div className='animal_img'>
         <BackArrow />
