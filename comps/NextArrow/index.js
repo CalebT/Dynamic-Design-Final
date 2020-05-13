@@ -9,7 +9,7 @@ const NextArrow = ({img, onClick}) => <div id="img_box">
 
 NextArrow.defaultProps = {
     img:nextImg,
-    onClick:'',
+    onClick:"",
 }
 
 export default NextArrow;

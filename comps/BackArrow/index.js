@@ -9,7 +9,7 @@ const BackArrow = ({img, onClick}) => <div id="img_box">
 
 BackArrow.defaultProps = {
     img:backImg,
-    onClick:'',
+    onClick:"",
 }
 
 export default BackArrow;
