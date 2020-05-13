@@ -10,7 +10,7 @@ import SoundButton from '../../comps/sound-buttons/index'
 import Router from 'next/router';
 
 function ClickQuiz() {
-    Router.push("/QuizPage")
+    Router.push("/ManateeQuizPage1")
 }
 
 function ClickBack() {
@@ -21,7 +21,7 @@ const ManateePage = () =>
 
 <div className='entire_animalinfo'>
     <div className='animal_header'>
-        <Header color='#0d6d0d' text='Amazonian Manatee' fontSize='25pt'/>
+        <Header color='#0d6d0d' text='Amazonian Manatee' fontSize='20pt'/>
     </div>
     <div className='animal_img'>
         <BackArrow />

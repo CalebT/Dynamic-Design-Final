@@ -15,13 +15,14 @@
 }
 
 .animal_header{
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
 
 .info{
     margin: 10px;
+    overflow: scroll;
 }
 
 .footer_button1{
