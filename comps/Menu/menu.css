@@ -24,16 +24,15 @@
     display: flex;
 }
 
-.custom_button_box{
-    width: 25vw;
+/* .custom_button_box{
     display: block;
     align-items: center;
     justify-content: center;
-}
+} */
 
-.custom_button_box_inner{
+/* .custom_button_box_inner{
     font-size: 25px;
-}
+} */
 
 .but{
     width: 100%;
