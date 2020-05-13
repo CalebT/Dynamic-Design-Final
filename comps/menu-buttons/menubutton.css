@@ -1,0 +1,27 @@
+.menubuttonbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    font-family: 'Londrina Solid', cursive;
+    font-weight: bolder;
+    font-size: 23pt;
+    border: 5px solid #707070;
+    color: #707070;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px black;
+    margin: 10%;
+    transition: 0.1s;
+    text-align: center;
+    width: 50vw;
+    height: 10vh;
+}
+
+.menubuttonbox:active{
+    background-color: "#FFF";
+}
+
+.menubuttonboxinner::selection {
+    background: none;
+    color: none;
+}
