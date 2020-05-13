@@ -10,11 +10,11 @@ import SoundButton from '../../comps/sound-buttons/index'
 import Router from 'next/router';
 
 function ClickQuiz() {
-    Router.push("/QuizPage")
+    Router.push("/FrigatebirdQuizPage1")
 }
 
 function ClickBack() {
-    Router.push("/Amvpage")
+    Router.push("/Aucpage")
 }
 
 const FrigatebirdPage = () => 

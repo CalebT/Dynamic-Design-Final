@@ -10,18 +10,18 @@ import SoundButton from '../../comps/sound-buttons/index'
 import Router from 'next/router';
 
 function ClickQuiz() {
-    Router.push("/QuizPage")
+    Router.push("/WallabyQuizPage1")
 }
 
 function ClickBack() {
-    Router.push("/Amvpage")
+    Router.push("/Auepage")
 }
 
 const WallabyPage = () => 
 
 <div className='entire_animalinfo'>
     <div className='animal_header'>
-        <Header color='#0d6d0d' text='Black-Flanked Rock-Wallaby' fontSize='25pt'/>
+        <Header color='#0d6d0d' text='Black-Flanked Rock-Wallaby' fontSize='20pt'/>
     </div>
     <div className='animal_img'>
         <BackArrow />
