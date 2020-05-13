@@ -22,6 +22,8 @@ import Worldmap from '../pages/Worldmappage';
 import QuizPage from '../pages/PolarBearQuizPage1';
 import QuizResultsPage from '../pages/PolarBearQuizResultsPage';
 
+const PolarBear1 = require('../Imgs/polarbear1.jpg');
+const PolarBear2 = require('../Imgs/polarbear2.jpg')
 
 export default {
     title: 'pages',
@@ -49,10 +51,10 @@ export default {
     component: QuizResultsPage,
 }
 
-
-
 export const MyHomepage = () => <Homepage />
-export const MyPolarBearPage = () => <PolarBearPage />
+export const MyPolarBearPage = () => <PolarBearPage 
+    img={PolarBear2}
+    />
 export const MyTutorialPage = () => <TutorialPage />
 export const MyLoeamPage = () => <LoeamPage />
 export const MyLoeafPage = () => <LoeafPage />

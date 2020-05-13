@@ -17,16 +17,27 @@ function ClickBack() {
     Router.push("/Amvpage")
 }
 
+const PolarBear1 = require('../../Imgs/polarbear1.jpg');
+const PolarBear2 = require('../../Imgs/polarbear2.jpg')
+
+function NextPic() {
+    document.Animalimg({img}).src = {img:PolarBear2}
+}
+
 const AnimalPage = () => 
 
 <div className='entire_animalinfo'>
     <div className='animal_header'>
         <Header color='#0d6d0d' text='Polar Bear' fontSize='25pt'/>
     </div>
-    <div className='animal_img'>
+    <div className='animal_img_box'>
         <BackArrow />
-        <Animalimg />
-        <NextArrow />
+        <Animalimg 
+        img={PolarBear1}
+        />
+        <NextArrow 
+        onClick={NextPic}
+        />
     </div>
     <div className='animal_sound'>
         <p id='sound'>Sound: </p>
