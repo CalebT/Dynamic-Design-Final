@@ -33,7 +33,7 @@ const QuizPage = () =>
         <div className="header">
             <Header 
             text="Polar Bear Quiz"
-            fontSize="23pt"
+            fontSize="20pt"
             color="green"
             />
         </div>
