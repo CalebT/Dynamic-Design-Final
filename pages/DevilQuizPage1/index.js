@@ -30,7 +30,7 @@ const QuizPage = () =>
         <span >
             menu
         </span>
-        <div className="header">
+        <div className="header-box">
             <Header 
             text="Tasmanian Devil Quiz"
             fontSize="23pt"
