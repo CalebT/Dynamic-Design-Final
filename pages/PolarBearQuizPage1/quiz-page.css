@@ -33,7 +33,7 @@
 }
 
 .False {
-    border-radius: 100px;
+    border-radius: 200px;
     height: 15vh;
     width: 15vh;
     position: absolute;
@@ -44,12 +44,28 @@
 }
 
 .True {
-    border-radius: 100px;
+    border-radius: 200px;
     height: 15vh;
     width: 15vh;
     position: absolute;
     bottom: 15%;
-    right: 5%;
+    right: 10;
     background-color: white;
     border: 5px solid grey;
+}
+
+.incorrect {
+    font-family: 'Rubik', sans-serif;
+    display: none;
+    justify-content: center;
+    color: red;
+    font-size: 36pt;
+}
+
+.correct {
+    font-family: 'Rubik', sans-serif;
+    display: none;
+    justify-content: center;
+    color: green;
+    font-size: 36pt;
 }

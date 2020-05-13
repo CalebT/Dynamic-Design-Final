@@ -7,12 +7,22 @@ import Router from 'next/router';
 import QuizFalse from '../../comps/QuizFalse';
 import QuizTrue from '../../comps/QuizTrue';
 
-function ClickSubmit() {
-    Router.push("/QuizResultsPage")
+function ClickNext() {
+    Router.push("/PolarBearQuizPage2")
 }
 
 function ClickBack() {
     Router.push("/PolarBearpage")
+}
+
+function ClickTrue() {
+    document.querySelector(".incorrect").style.display = "flex";
+    document.querySelector(".correct").style.display = "none";
+}
+
+function ClickFalse() {
+    document.querySelector(".incorrect").style.display = "none";
+    document.querySelector(".correct").style.display = "flex";
 }
 
 const QuizPage = () => 
@@ -30,18 +40,26 @@ const QuizPage = () =>
 
         <div className="quiz-question">
             <AnimalQuiz 
-            question="Do polar bears live in England?"
+            question="Q1. Do polar bears live in England?"
             fontSize="36pt"
             />
         </div>
 
-            <button className="False">
-                <QuizFalse />
-            </button>
+        <div className="incorrect">
+            <h2>Incorrect</h2>
+        </div>
+
+        <div className="correct">
+            <h2>Correct!</h2>
+        </div>
+
+        <button className="False" onClick={ClickFalse}>
+            <QuizFalse />
+        </button>
             
-            <button className="True">
-                <QuizTrue />
-            </button>
+        <button className="True" onClick={ClickTrue}>
+            <QuizTrue />
+        </button>
 
         <div className="button-container">
             <div className="button1">
@@ -53,12 +71,11 @@ const QuizPage = () =>
             
             <div className="button2">
             <SmallButton 
-            text="Submit"
-            onClick={ClickSubmit}
+            text="Next"
+            onClick={ClickNext}
             />
             </div>
         </div>
-
     </div>
 
 export default QuizPage;

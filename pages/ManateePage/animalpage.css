@@ -21,7 +21,10 @@
 }
 
 .info{
+    height: 33vh;
     margin: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .footer_button1{
