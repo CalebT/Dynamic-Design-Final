@@ -15,7 +15,7 @@ function ClickPrey() {
 }
 
 function ClickBack() {
-    Router.push("/Loeampage")
+    Router.push("/Loeaupage")
 }
 
 
