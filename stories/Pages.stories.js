@@ -52,9 +52,7 @@ export default {
 }
 
 export const MyHomepage = () => <Homepage />
-export const MyPolarBearPage = () => <PolarBearPage 
-    img={PolarBear2}
-    />
+export const MyPolarBearPage = () => <PolarBearPage />
 export const MyTutorialPage = () => <TutorialPage />
 export const MyLoeamPage = () => <LoeamPage />
 export const MyLoeafPage = () => <LoeafPage />

@@ -17,12 +17,22 @@ function ClickBack() {
     Router.push("/Amvpage")
 }
 
-const PolarBear1 = require('../../Imgs/polarbear1.jpg');
-const PolarBear2 = require('../../Imgs/polarbear2.jpg')
+var togglestate = 1;
 
-function NextPic() {
-    document.Animalimg({img}).src = PolarBear2;
+function ClickToggle() {
+    if (togglestate ===  0) {
+        document.querySelector(".pic2").style.display = "block";
+        document.querySelector(".pic1").style.display = "none";
+        togglestate = 1;
+    } else if (togglestate === 1) {
+        document.querySelector(".pic1").style.display = "block";
+        document.querySelector(".pic2").style.display = "none";
+        togglestate = 0;
+    }
 }
+
+const img1 = require('../../Imgs/polarbear1.jpg');
+const img2 = require('../../Imgs/polarbear2.jpg')
 
 const AnimalPage = () => 
 
@@ -31,13 +41,24 @@ const AnimalPage = () =>
         <Header color='#0d6d0d' text='Polar Bear' fontSize='25pt'/>
     </div>
     <div className='animal_img_box'>
+        <div onClick={ClickToggle}>
         <BackArrow />
-        <Animalimg 
-        img={PolarBear1}
+        </div>
+
+        <div className="pic2">
+        <Animalimg
+        img={img1}
         />
-        <NextArrow 
-        onClick={NextPic}
+        </div>
+        <div className="pic1">
+        <Animalimg
+        img={img2}
         />
+        </div>
+
+        <div onClick={ClickToggle}>
+            <NextArrow />
+        </div>    
     </div>
     <div className='animal_sound'>
         <p id='sound'>Sound: </p>

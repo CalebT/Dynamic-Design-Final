@@ -28,7 +28,7 @@
 }
 
 .footer_button1{
-    left: 5px;
+    left: 15px;
     bottom: 10px;
     position: absolute;
     display: flex;
@@ -58,4 +58,8 @@
     display: none;
     align-items: center;
     justify-content: center;
+}
+
+.pic1 {
+    display: none;
 }
