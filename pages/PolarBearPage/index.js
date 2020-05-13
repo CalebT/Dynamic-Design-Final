@@ -21,7 +21,7 @@ const PolarBear1 = require('../../Imgs/polarbear1.jpg');
 const PolarBear2 = require('../../Imgs/polarbear2.jpg')
 
 function NextPic() {
-    document.Animalimg({img}).src = {img:PolarBear2}
+    document.Animalimg({img}).src = PolarBear2;
 }
 
 const AnimalPage = () => 
