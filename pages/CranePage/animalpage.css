@@ -4,6 +4,7 @@
     height: 100vh;
     padding: 10px;
     position: relative;
+    margin-top: -8px;
 }
 
 .animal_img{

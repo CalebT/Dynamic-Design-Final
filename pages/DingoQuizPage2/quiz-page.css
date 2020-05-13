@@ -2,7 +2,8 @@
     width: 100vw;
     height: 100vh;
     background-color: #6EE2DF;
-    padding: 5px;
+    padding: 5px;    
+    margin-top: -8px;
 }
 
 .header {

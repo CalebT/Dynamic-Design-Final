@@ -1,7 +1,3 @@
-#__next {
-    margin: -8px;
-}
-
 .entire_loeaf{
     background-color: #6de2de;
     width: 100vw;
@@ -10,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    margin-top:-8px;
 }
 
 .loeaf_header{

@@ -10,7 +10,7 @@ import SoundButton from '../../comps/sound-buttons/index'
 import Router from 'next/router';
 
 function ClickQuiz() {
-    Router.push("/koalaQuizPage1")
+    Router.push("/KoalaQuizPage1")
 }
 
 function ClickBack() {
