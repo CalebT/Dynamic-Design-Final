@@ -4,7 +4,8 @@ import './app.css'
 const IndexPage = () => 
     <div>
         <h1>Welcome</h1>
-        <p>Click <a href="/Homepage">Here</a> to check out Anipals</p>
+        <p>To start, we recommend using Google Chrome, and right clicking on the webpage and selecting "Inspect", then at the top on the page, set the size to Iphone X, as that is the size this version of the app works best with</p>
+        <p>Click <button href="/Homepage">Here</button> to check out Anipals</p>
     </div>
 
 export default IndexPage;
