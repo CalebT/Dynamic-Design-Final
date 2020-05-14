@@ -8,6 +8,8 @@ import Animalimg from '../../comps/Animalimgs/animalimgs'
 import SmallButton from '../../comps/small-buttons/index'
 import SoundButton from '../../comps/sound-buttons/index'
 import Router from 'next/router';
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickQuiz() {
     Router.push("/PandaQuizPage1")
@@ -20,6 +22,7 @@ function ClickBack() {
 const PandaPage = () => 
 
 <div className='entire_animalinfo'>
+<SidebarMenu/>
     <div className='animal_header'>
         <Header color='#0d6d0d' text='Giant Panda' fontSize='25pt'/>
     </div>

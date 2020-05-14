@@ -5,6 +5,8 @@ import Subheader from '../../comps/Subheader/index'
 import BigButton from '../../comps/big-buttons/index'
 import SmallButton from '../../comps/small-buttons/index'
 import Router from 'next/router';
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickPredator() {
     Router.push("/FrigatebirdPage")
@@ -22,6 +24,7 @@ function ClickBack() {
 const Aucpage = () =>
 
     <div className='entire_auc'>
+        <SidebarMenu/>
         <div className='auc_header'>
             <Header color='#0d6d0d' text='Australia' />
         </div>

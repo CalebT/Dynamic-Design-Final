@@ -3,6 +3,8 @@ import './homepage.css'
 import AnipalsLogo from '../../comps/Logo/logo'
 import BigButton from '../../comps/big-buttons/index'
 import Router from 'next/router';
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickStart() {
     Router.push("/Worldmappage")
@@ -14,6 +16,7 @@ function ClickTutorial() {
 
 const Homepage = () => 
 <div className='entire_home'>
+<SidebarMenu/>
     <div className='logo'>
         <AnipalsLogo />
     </div>
