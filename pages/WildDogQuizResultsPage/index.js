@@ -17,7 +17,9 @@ function ClickTryAgain() {
 
 const QuizResultsPage = () => 
     <div id="quizpage">
+
         <SidebarMenu/>
+
 
         <div class="quiz-results-amount">
             <Header 
