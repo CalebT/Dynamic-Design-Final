@@ -4,6 +4,8 @@ import SmallButton from '../../comps/small-buttons';
 import './quiz-results-page.css';
 import SpecialButton from '../../comps/special-button';
 import Router from 'next/router';
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickMap() {
     Router.push("/Worldmappage")
@@ -15,9 +17,9 @@ function ClickTryAgain() {
 
 const QuizResultsPage = () => 
     <div id="quizpage">
-        <span >
-            menu
-        </span>
+
+        <SidebarMenu/>
+
 
         <div class="quiz-results-amount">
             <Header 
