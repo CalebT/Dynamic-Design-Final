@@ -5,6 +5,8 @@ import Subheader from '../../comps/Subheader/index'
 import BigButton from '../../comps/big-buttons/index'
 import SmallButton from '../../comps/small-buttons/index'
 import Router from 'next/router';
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickPredator() {
     Router.push("/FerretPage")
@@ -21,6 +23,7 @@ function ClickBack() {
 const Amepage = () =>
 
     <div className='entire_ame'>
+        <SidebarMenu/>
         <div className='ame_header'>
             <Header color='#0d6d0d' text='Americas' />
         </div>

@@ -4,6 +4,8 @@ import Header from '../../comps/Header/index'
 import BigButton from '../../comps/big-buttons/index'
 import SmallButton from '../../comps/small-buttons/index'
 import Router from 'next/router'
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickVulnerable() {
     Router.push("/Auvpage")
@@ -24,6 +26,7 @@ function ClickBack() {
 const Loeaupage = () =>
 
     <div className='entire_loeau'>
+        <SidebarMenu/>
         <div className='loeau_header'>
             <Header color='#0d6d0d' text='Australia' />
         </div>

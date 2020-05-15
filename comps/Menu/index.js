@@ -3,6 +3,7 @@ import React from 'react';
 import './menu.css';
 import MenuButton from '../menu-buttons';
 import {TiThMenu} from 'react-icons/ti';
+import Router from 'next/router';
 
 function ClickHome() {
     Router.push("/Homepage")

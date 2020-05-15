@@ -1,9 +1,9 @@
 import React from 'react'
 import './homepage.css'
 import AnipalsLogo from '../../comps/Logo/logo'
-import BigButton from '../../comps/big-buttons/index'
+import BigButton from '../../comps/big-buttons'
 import Router from 'next/router';
-import SidebarMenu from '../../comps/Menu/index';
+import SidebarMenu from '../../comps/Menu';
 import Header from '../../comps/Header'
 
 

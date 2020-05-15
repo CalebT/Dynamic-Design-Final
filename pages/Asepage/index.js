@@ -5,6 +5,8 @@ import Subheader from '../../comps/Subheader/index'
 import BigButton from '../../comps/big-buttons/index'
 import SmallButton from '../../comps/small-buttons/index'
 import Router from 'next/router';
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickPredator() {
     Router.push("/DolphinPage")
@@ -21,6 +23,7 @@ function ClickBack() {
 const Asepage = () =>
 
     <div className='entire_ase'>
+        <SidebarMenu/>
         <div className='ase_header'>
             <Header color='#0d6d0d' text='Asia' />
         </div>

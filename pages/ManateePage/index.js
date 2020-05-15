@@ -8,6 +8,8 @@ import Animalimg from '../../comps/Animalimgs/animalimgs'
 import SmallButton from '../../comps/small-buttons/index'
 import SoundButton from '../../comps/sound-buttons/index'
 import Router from 'next/router';
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickQuiz() {
     Router.push("/ManateeQuizPage1")
@@ -37,6 +39,7 @@ const img2 = require('../../Imgs/manatee2.jpg')
 const ManateePage = () => 
 
 <div className='entire_animalinfo'>
+<SidebarMenu/>
     <div className='animal_header'>
         <Header color='#0d6d0d' text='Amazonian Manatee' fontSize='20pt'/>
     </div>
