@@ -38,7 +38,7 @@ const DolphinPage = () =>
 
 <div className='entire_animalinfo'>
     <div className='animal_header'>
-        <Header color='#0d6d0d' text='Ganges River Dolphin' fontSize='25pt'/>
+        <Header color='#0d6d0d' text='Ganges River Dolphin' fontSize='23pt'/>
     </div>
     <div className='animal_img_box'>
         <div onClick={ClickToggle}>

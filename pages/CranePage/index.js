@@ -23,10 +23,12 @@ function ClickToggle() {
     if (togglestate ===  0) {
         document.querySelector(".pic2").style.display = "block";
         document.querySelector(".pic1").style.display = "none";
+        document.querySelector(".info").style.height = "40vh"
         togglestate = 1;
     } else if (togglestate === 1) {
         document.querySelector(".pic1").style.display = "block";
         document.querySelector(".pic2").style.display = "none";
+        document.querySelector(".info").style.height = "20vh";
         togglestate = 0;
     }
 }

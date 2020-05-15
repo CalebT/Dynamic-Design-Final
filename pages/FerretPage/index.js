@@ -23,10 +23,12 @@ function ClickToggle() {
     if (togglestate ===  0) {
         document.querySelector(".pic2").style.display = "block";
         document.querySelector(".pic1").style.display = "none";
+        document.querySelector(".info").style.height = "27vh";
         togglestate = 1;
     } else if (togglestate === 1) {
         document.querySelector(".pic1").style.display = "block";
         document.querySelector(".pic2").style.display = "none";
+        document.querySelector(".info").style.height = "35vh";
         togglestate = 0;
     }
 }
@@ -38,7 +40,7 @@ const FerretPage = () =>
 
 <div className='entire_animalinfo'>
     <div className='animal_header'>
-        <Header color='#0d6d0d' text='Black Footed Ferret' fontSize='25pt'/>
+        <Header color='#0d6d0d' text='Black Footed Ferret' fontSize='22pt'/>
     </div>
     <div className='animal_img_box'>
         <div onClick={ClickToggle}>
