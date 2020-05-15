@@ -22,5 +22,10 @@
 }
 
 .custom_button_box{
+    margin-bottom: 40px;
     margin: 30px;
+}
+
+.welcomeheader{
+    display: flex;
 }
