@@ -28,4 +28,5 @@
 
 .welcomeheader{
     display: flex;
+    margin-top:-40px;
 }
