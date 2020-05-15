@@ -9,7 +9,7 @@
     "build-storybook": "build-storybook",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "repository": {
     "type": "git",
@@ -22,14 +22,14 @@
   },
   "homepage": "https://github.com/CalebT/Dynamic-Design-Final#readme",
   "dependencies": {
-    "next": "^9.3.5",
     "@zeit/next-css": "^1.0.1",
-    "next": "^9.3.4",
+    "next": "^9.3.6",
     "next-images": "^1.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.9.0",
-    "storybook": "^5.3.18"
+    "storybook": "^5.3.18",
+    "webpack": "^4.43.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

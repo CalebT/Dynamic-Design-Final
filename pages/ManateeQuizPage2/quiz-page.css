@@ -1,0 +1,72 @@
+#quizpage {
+    width: 100vw;
+    height: 100vh;
+    background-color: #6EE2DF;
+    margin-top: -8px;
+}
+
+.header {
+    text-align: center;
+    padding:10px;
+}
+
+.quiz-question {
+    margin: 30px 10px;
+}
+
+.button1 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px
+}
+
+.button2 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.ToF-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.False {
+    border-radius: 200px;
+    height: 15vh;
+    width: 15vh;
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    background-color: white;
+    border: 5px solid grey;
+}
+
+.True {
+    border-radius: 200px;
+    height: 15vh;
+    width: 15vh;
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    background-color: white;
+    border: 5px solid grey;
+}
+
+.incorrect {
+    font-family: 'Rubik', sans-serif;
+    display: none;
+    justify-content: center;
+    color: red;
+    font-size: 36pt;
+}
+
+.correct {
+    font-family: 'Rubik', sans-serif;
+    display: none;
+    justify-content: center;
+    color: green;
+    font-size: 36pt;
+}

@@ -1,5 +1,4 @@
 .custom_button_box_small {
-    display: inline-flex;
     border-radius: 25px;
     font-family: 'Londrina Solid', cursive;
     padding: 13px;
@@ -11,6 +10,7 @@
     box-shadow: 3px 3px 6px black;
     margin: 5px;
     transition: 0.1s;
+    text-align: center;
 }
 
 .custom_button_box_small:active{

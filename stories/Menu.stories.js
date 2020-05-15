@@ -1,5 +1,5 @@
 import React from 'react';
-import SidebarMenu from '../comps/Menu/menu';
+import SidebarMenu from '../comps/Menu/index';
 
 export default {
     title: 'SidebarMenu',

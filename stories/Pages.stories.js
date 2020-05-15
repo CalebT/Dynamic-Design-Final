@@ -1,30 +1,34 @@
 import React from 'react';
-import Homepage from '../pages/Homepage/homepage';
-import AnimalPage from '../pages/Animalpage/animalpage';
-import TutorialPage from '../pages/Tutorialpage/tutorialpage';
-import LoeamPage from '../pages/Loeampage/loeampage';
-import LoeafPage from '../pages/Loeafpage/loeafpage';
-import LoeasPage from '../pages/Loeaspage/loeaspage';
-import LoeauPage from '../pages/Loeaupage/loeaupage';
-import AmvPage from '../pages/Amvpage/amvpage';
-import AmePage from '../pages/Amepage/amepage';
-import AmcPage from '../pages/Amcpage/amcpage';
-import AfvPage from '../pages/Afvpage/afvpage';
-import AfePage from '../pages/Afepage/afepage';
-import AfcPage from '../pages/Afcpage/afcpage';
-import AsvPage from '../pages/Asvpage/asvpage';
-import AsePage from '../pages/Asepage/asepage';
-import AscPage from '../pages/Ascpage/ascpage';
-import AuvPage from '../pages/Auvpage/auvpage';
-import AuePage from '../pages/Auepage/auepage';
-import AucPage from '../pages/Aucpage/aucpage';
-import Worldmap from '../pages/Worldmappage/worldmap'
+import Homepage from '../pages/Homepage';
+import PolarBearPage from '../pages/PolarBearPage';
+import TutorialPage from '../pages/Tutorialpage';
+import LoeamPage from '../pages/Loeampage';
+import LoeafPage from '../pages/Loeafpage';
+import LoeasPage from '../pages/Loeaspage';
+import LoeauPage from '../pages/Loeaupage';
+import AmvPage from '../pages/Amvpage';
+import AmePage from '../pages/Amepage';
+import AmcPage from '../pages/Amcpage';
+import AfvPage from '../pages/Afvpage';
+import AfePage from '../pages/Afepage';
+import AfcPage from '../pages/Afcpage';
+import AsvPage from '../pages/Asvpage';
+import AsePage from '../pages/Asepage';
+import AscPage from '../pages/Ascpage';
+import AuvPage from '../pages/Auvpage';
+import AuePage from '../pages/Auepage';
+import AucPage from '../pages/Aucpage';
+import Worldmap from '../pages/Worldmappage';
+import QuizPage from '../pages/PolarBearQuizPage1';
+import QuizResultsPage from '../pages/PolarBearQuizResultsPage';
 
+const PolarBear1 = require('../Imgs/polarbear1.jpg');
+const PolarBear2 = require('../Imgs/polarbear2.jpg')
 
 export default {
     title: 'pages',
     component: Homepage,
-    component: AnimalPage,
+    component: PolarBearPage,
     component: TutorialPage, 
     component: LoeamPage,
     component: LoeafPage,
@@ -43,12 +47,12 @@ export default {
     component: AuePage,
     component: AucPage,
     component: Worldmap,    
+    component: QuizPage,
+    component: QuizResultsPage,
 }
 
-
-
 export const MyHomepage = () => <Homepage />
-export const MyAnimalPage = () => <AnimalPage />
+export const MyPolarBearPage = () => <PolarBearPage />
 export const MyTutorialPage = () => <TutorialPage />
 export const MyLoeamPage = () => <LoeamPage />
 export const MyLoeafPage = () => <LoeafPage />
@@ -67,3 +71,5 @@ export const MyAuvPage = () => <AuvPage />
 export const MyAuePage = () => <AuePage />
 export const MyAucPage = () => <AucPage />
 export const MyMapPage = () => <Worldmap />
+export const MyPolarBearQuizPage1 = () => <QuizPage />
+export const MyPolarBearQuizResultsPage = () => <QuizResultsPage />

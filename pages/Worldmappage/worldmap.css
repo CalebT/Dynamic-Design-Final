@@ -1,21 +1,89 @@
-.entire_map{
-    background-color: #6de2de;
-    width: 325px;
-    height: 812px;
-    position: absolute;
+.header {
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.map_entire{
+    background-color: #6EE2DF;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -8px;
 }
 
 .button{
-    bottom: 10px;
-    left: 5px;
     position: absolute;
+    left: 10px;
+    bottom: 10px;
 }
 
 .custom_button_box_small{
     width: 75px;
 }
 
-.map{
-    position: relative;
+.america{
     top: 40%;
+    left: 5%;
+    width: 25%;
+    height: auto;
+    position: absolute;
+    cursor: pointer;
+}
+
+.gray1{
+    top: 37%;
+    left: 25%;
+    width: 7%;
+    height: auto;
+    position: absolute;
+}
+
+.africa{
+    top: 46%;
+    left: 30%;
+    width: 25%;
+    height: auto;
+    position: absolute;
+    cursor: pointer;
+}
+
+.asia{
+    top: 42%;
+    left: 55%;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    cursor: pointer;
+}
+
+.gray2{
+    top: 38%;
+    left: 50%;
+    width: 45%;
+    height: auto;
+    position: absolute;
+}
+
+.australia{
+    top: 57%;
+    left: 70%;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    cursor: pointer;
+}
+
+.america:hover{
+    width: 27%;
+}
+
+.asia:hover{
+    width: 42%;
+}
+
+.africa:hover{
+    width: 27%;
+}
+
+.australia:hover{
+    width: 22%;
 }

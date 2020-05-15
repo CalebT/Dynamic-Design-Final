@@ -1,0 +1,60 @@
+.entire_animalinfo{
+    background-color: #6de2de;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin-top: -8px;
+}
+
+.animal_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+}
+
+.info{
+    height: 33vh;
+    margin: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.footer_button1{
+    left: 15px;
+    bottom: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer_button2{
+    right: 15px;
+    bottom: 10px;
+    position: absolute;
+}
+.custom_button_box_small{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sound{
+    font-family: 'Rubik', sans-serif;
+    margin-right: 10px;
+}
+
+.animal_sound{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}

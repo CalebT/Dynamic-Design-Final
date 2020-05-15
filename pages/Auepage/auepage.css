@@ -1,11 +1,12 @@
 .entire_aue{
     background-color: #6de2de;
-    width: 325px;
-    height: 812px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+    margin-top: -8px;
 }
 
 .aue_header{
@@ -13,8 +14,9 @@
     display: flex;
     justify-content: center;
     background: -webkit-linear-gradient(#275CE2,#ffff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .aue_subheader{

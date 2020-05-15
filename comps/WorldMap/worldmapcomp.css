@@ -1,10 +1,9 @@
-
+/* 
 .america{
    width: 25%;
-   height: auto;
    position: absolute;
-   left: 7px;
-   top: 30px;
+   left: 2%;
+   top: 80%;
    cursor: pointer;
 }
 .asia{
@@ -17,8 +16,8 @@
 .africa{
     width: 23%;
     position: absolute;
-    left: 100px;
-    top: 80px;
+    left: 80%;
+    top: 80%;
     cursor: pointer;
 }
 .australia{
@@ -31,7 +30,7 @@
 .gray1{
     width: 9%;
     position: absolute;
-    left: 75px;
+    left: 30%;
 }
 .gray2{
     width: 60%;
@@ -53,4 +52,4 @@
 
 .australia:hover{
     width: 26%;
-}
+} */

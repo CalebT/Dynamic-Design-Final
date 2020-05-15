@@ -21,4 +21,5 @@ SmallButton.defaultProps = {
     color:"#FFF",
     onClick:"",
 }
+
 export default SmallButton;

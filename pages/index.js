@@ -1,10 +1,11 @@
-import Link from 'next/link'
-import Router from 'next/router';
-import './app.css';
-import './index.css'
+import React from 'react'
+import './app.css'
 
-const Index = () => <div id="mainapp">
-    <div>Index</div>
-</div>
+const IndexPage = () => 
+    <div>
+        <h1>Welcome</h1>
+        <p>To start, we recommend using Google Chrome, and right clicking on the webpage and selecting "Inspect", then at the top on the page, set the size to Iphone X, as that is the size this version of the app works best with</p>
+        <p>Click <a href="/Homepage">Here</a> to check out Anipals</p>
+    </div>
 
-export default Index;
+export default IndexPage;
