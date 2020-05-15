@@ -5,6 +5,8 @@ import Subheader from '../../comps/Subheader/index'
 import BigButton from '../../comps/big-buttons/index'
 import SmallButton from '../../comps/small-buttons/index'
 import Router from 'next/router'
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickPredator() {
     Router.push("/DingoPage")
@@ -22,6 +24,7 @@ function ClickBack() {
 const Auvpage = () =>
 
     <div className='entire_aue'>
+        <SidebarMenu/>
         <div className='auv_header'>
             <Header color='#275CE2' text='Australia' />
         </div>

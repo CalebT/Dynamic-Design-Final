@@ -5,6 +5,8 @@ import Subheader from '../../comps/Subheader/index'
 import BigButton from '../../comps/big-buttons/index'
 import SmallButton from '../../comps/small-buttons/index'
 import Router from 'next/router';
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickPredator() {
     Router.push("/VaquitaPage")
@@ -21,6 +23,7 @@ function ClickBack() {
 const Amcpage = () =>
 
     <div className='entire_amc'>
+        <SidebarMenu/>
         <div className='amc_header'>
             <Header color='#0d6d0d' text='Americas' />
         </div>

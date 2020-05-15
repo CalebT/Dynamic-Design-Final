@@ -6,6 +6,8 @@ import './quiz-page.css';
 import Router from 'next/router';
 import QuizFalse from '../../comps/QuizFalse';
 import QuizTrue from '../../comps/QuizTrue';
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickNext() {
     Router.push("/PandaQuizPage2")
@@ -27,9 +29,7 @@ function ClickFalse() {
 
 const QuizPage = () => 
     <div id="quizpage">
-        <span >
-            menu
-        </span>
+        <SidebarMenu/>
         <div className="header-box">
             <Header 
             text="Panda Quiz"

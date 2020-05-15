@@ -9,6 +9,8 @@ import Asiaimg from '../../comps/mapAsia'
 import Gray2img from '../../comps/mapGray2'
 import Australiaimg from '../../comps/mapAustralia'
 import Header from '../../comps/Header/index'
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickAmerica() {
    Router.push("/Loeampage")
@@ -33,6 +35,7 @@ function ClickBack() {
 const Worldmap = () => 
 
 <div className='map_entire'>
+   <SidebarMenu/>
    <div className="header">
       <Header color='#ffffff' text='Click an area to begin exploring!' fontSize='26px'/>
    </div>

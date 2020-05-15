@@ -4,6 +4,8 @@ import Header from '../../comps/Header/index'
 import BigButton from '../../comps/big-buttons/index'
 import SmallButton from '../../comps/small-buttons/index'
 import Router from 'next/router';
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickVulnerable() {
     Router.push("/Afvpage")
@@ -24,6 +26,7 @@ function ClickBack() {
 const Loeafpage = () =>
 
     <div className='entire_loeaf'>
+        <SidebarMenu/>
         <div className='loeaf_header'>
             <Header color='#0d6d0d' text='Africa' />
         </div>

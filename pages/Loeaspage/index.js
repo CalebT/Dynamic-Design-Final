@@ -5,6 +5,8 @@ import BigButton from '../../comps/big-buttons';
 import SmallButton from '../../comps/small-buttons';
 import Americaimg from '../../comps/WorldMap/worldmapcomp';
 import Router from 'next/router';
+import SidebarMenu from '../../comps/Menu/index'
+
 
 function ClickVulnerable() {
     Router.push("/Asvpage")
@@ -25,6 +27,7 @@ function ClickBack() {
 const Loeaspage = () =>
 
     <div className='entire_loeas'>
+        <SidebarMenu/>
         <div className='loeas_header'>
             <Header color='#0d6d0d' text='Asia' />
         </div>
