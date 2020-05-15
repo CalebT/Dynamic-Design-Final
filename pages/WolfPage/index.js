@@ -33,8 +33,8 @@ function ClickToggle() {
     }
 }
 
-const img1 = require('../../Imgs/wilddog1.jpg');
-const img2 = require('../../Imgs/wilddog2.jpg')
+const img1 = require('../../Imgs/wolf1.jpg');
+const img2 = require('../../Imgs/wolf2.jpg')
 
 const WolfPage = () => 
 

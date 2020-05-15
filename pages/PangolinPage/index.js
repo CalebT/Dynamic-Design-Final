@@ -41,7 +41,7 @@ const PangolinPage = () =>
 <div className='entire_animalinfo'>
 <SidebarMenu/>
     <div className='animal_header'>
-        <Header color='#0d6d0d' text='Chinese Pangolin' fontSize='25pt'/>
+        <Header color='#0d6d0d' text='Chinese Pangolin' fontSize='24pt'/>
     </div>
     <div className='animal_img_box'>
         <div onClick={ClickToggle}>

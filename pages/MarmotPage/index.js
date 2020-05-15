@@ -41,7 +41,7 @@ const MarmotPage = () =>
 <div className='entire_animalinfo'>
 <SidebarMenu/>
     <div className='animal_header'>
-        <Header color='#0d6d0d' text='Vancouver Island Marmot' fontSize='25pt'/>
+        <Header color='#0d6d0d' text='Vancouver Island Marmot' fontSize='23pt'/>
     </div>
     <div className='animal_img_box'>
         <div onClick={ClickToggle}>

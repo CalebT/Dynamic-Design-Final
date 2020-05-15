@@ -14,13 +14,17 @@
     margin-bottom: 10px;
 }
 
+.animal_header {
+    margin-top:10px;
+}
+
 .header{
     text-align: center;
     padding:10px;
 }
 
 .info{
-    height: 33vh;
+    height: 40vh;
     margin: 10px;
     overflow-y: scroll;
     overflow-x: hidden;
