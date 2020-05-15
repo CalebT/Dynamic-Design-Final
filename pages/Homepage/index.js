@@ -22,13 +22,13 @@ const Homepage = () =>
         <AnipalsLogo />
     </div>
     <div className='welcomeheader'>
-        <Header text="W" color="#FF5733"/>
-        <Header text="E" color="#FF9933"/>
-        <Header text="L" color="#F4F729"/>
-        <Header text="C" color="#51F325"/>
-        <Header text="O" color="#25F3F3"/>
-        <Header text="M" color="#2579F3"/>
-        <Header text="E" color="#7925F3"/>
+        <Header text="W" color="#FF5733" fontSize="30px"/>
+        <Header text="E" color="#FF9933" fontSize="30px"/>
+        <Header text="L" color="#F4F729" fontSize="30px"/>
+        <Header text="C" color="#51F325" fontSize="30px"/>
+        <Header text="O" color="#25F3F3" fontSize="30px"/>
+        <Header text="M" color="#2579F3" fontSize="30px"/>
+        <Header text="E" color="#7925F3" fontSize="30px"/>
     </div>
     <div className='buttons'>
         <BigButton text='Let&apos;s Start!'
