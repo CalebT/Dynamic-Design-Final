@@ -10,11 +10,11 @@ import SidebarMenu from '../../comps/Menu/index'
 
 
 function ClickNext() {
-    Router.push("/TigerQuizPage2")
+    Router.push("/TigerQuizResultsPage")
 }
 
 function ClickBack() {
-    Router.push("/TigerPage")
+    Router.push("/TigerQuizPage1")
 }
 
 function ClickTrue() {
